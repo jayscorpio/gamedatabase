@@ -612,5 +612,32 @@
                 }
             ]
         }
-    ]
+    ],
+    "specialty_change": {
+        "id": "c4003",
+        "changed_skill": 3,
+        "quests": [
+            {
+                "category": "de_race_kill",
+                "mission_name": "cc_c3003_quest_01_name",
+                "mission_description": "cc_c3003_quest_01_desc"
+            },
+            {
+                "category": "de_hero_grow",
+                "mission_name": "cc_c3003_quest_02_name",
+                "mission_description": "cc_c3003_quest_02_desc"
+            },
+            {
+                "category": "de_token_give",
+                "mission_name": "cc_c3003_quest_03_name",
+                "mission_description": "cc_c3003_quest_03_desc"
+            },
+            {
+                "category": "de_trial_clear",
+                "mission_name": "cc_c3003_quest_04_name",
+                "mission_description": "cc_c3003_quest_04_desc"
+            }
+        ],
+        "tree": []
+    }
 }
