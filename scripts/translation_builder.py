@@ -234,12 +234,56 @@ def hero_parser(filename,data,get_translation_specific):
         except:
             pass
 
-        for sk_enh_index in range(len(data["skills"][sk_in]["enhancements"])):
-            data["skills"][sk_in]["enhancements"][sk_enh_index]["_id"] = "skill_{0}_enh_{1}".format(sk_in,sk_enh_index)
-            data["skills"][sk_in]["enhancements"][sk_enh_index]["string"] = get_translation_specific(data["skills"][sk_in]["enhancements"][sk_enh_index]["string"])
+        try:
+            for sk_enh_index in range(len(data["skills"][sk_in]["enhancements"])):
+                data["skills"][sk_in]["enhancements"][sk_enh_index]["_id"] = "skill_{0}_enh_{1}".format(sk_in,sk_enh_index)
+                data["skills"][sk_in]["enhancements"][sk_enh_index]["string"] = get_translation_specific(data["skills"][sk_in]["enhancements"][sk_enh_index]["string"])
 
-            for sk_enh_cost_index in range(len(data["skills"][sk_in]["enhancements"][sk_enh_index]["costs"])):
-                data["skills"][sk_in]["enhancements"][sk_enh_index]["costs"][sk_enh_cost_index]["_id"] = "skill_{0}_enh_{1}_cost_{2}".format(sk_in,sk_enh_index,sk_enh_cost_index)
+                for sk_enh_cost_index in range(len(data["skills"][sk_in]["enhancements"][sk_enh_index]["costs"])):
+                    data["skills"][sk_in]["enhancements"][sk_enh_index]["costs"][sk_enh_cost_index]["_id"] = "skill_{0}_enh_{1}_cost_{2}".format(sk_in,sk_enh_index,sk_enh_cost_index)
+        except:
+            pass
+
+    # try:
+    if data["specialty_change"]:
+        if data["specialty_change.quests"] and len(data["specialty_change.quests"]) > 0:
+            for sc_in in range(len(data["specialty_change.quests"])):
+                data["specialty_change.quests"][sc_in]["category"] = get_translation_specific(data["specialty_change.quests"][sc_in]["category"])
+                data["specialty_change.quests"][sc_in]["mission_name"] = get_translation_specific(data["specialty_change.quests"][sc_in]["mission_name"])
+                data["specialty_change.quests"][sc_in]["mission_description"] = get_translation_specific(data["specialty_change.quests"][sc_in]["mission_description"])
+
+        if data["specialty_change.tree"] and len(data["specialty_change.tree"]) > 0:
+            for sc_tree_in in range(len(data["specialty_change.tree"])):
+                for sc_tree_row_in in range(len(data["specialty_change.tree"][sc_tree_in])):
+                    for sc_tree_row_enhancements_in in range(len(data["specialty_change.tree"][sc_tree_in][sc_tree_row_in]['enhancements'])):
+                        currentEnhancement = data["specialty_change.tree"][sc_tree_in][sc_tree_row_in]['enhancements'][sc_tree_row_enhancements_in]
+                        currentEnhancement['description'] = get_translation_specific(currentEnhancement['description'])
+                        if currentEnhancement['upgrade']:
+                            currentEnhancement['upgrade'] = get_translation_specific(currentEnhancement['upgrade'])
+    # except:
+    #     pass
+
+    if data["relationships"] and len(data["relationships"]) > 0:
+        for relation_in in range(len(data["relationships"])):
+            if data["relationships"][relation_in]["name"]:
+                data["relationships"][relation_in]["name"] = get_translation_specific(data["relationships"][relation_in]["name"])
+            if data["relationships"][relation_in]["description"]:
+                data["relationships"][relation_in]["description"] = get_translation_specific(data["relationships"][relation_in]["description"])
+            if data["relationships"][relation_in]["relations"] and len(data["relationships"][relation_in]["relations"]) > 0:
+                for relationship_relation_in in range(len(data["relationships"][relation_in]["relations"])):
+                    try:
+                        data["relationships"][relation_in]["relations"][relationship_relation_in]['description'] = get_translation_specific(data["relationships"][relation_in]["relations"][relationship_relation_in]['description'])
+                        data["relationships"][relation_in]["relations"][relationship_relation_in]['relation_id'] = data["relationships"][relation_in]["relations"][relationship_relation_in]['relation']
+                        data["relationships"][relation_in]["relations"][relationship_relation_in]['relation'] = get_translation_specific(data["relationships"][relation_in]["relations"][relationship_relation_in]['relation'])
+                    except:
+                        pass
+
+                    try:
+                        data["relationships"][relation_in]["relations"][relationship_relation_in]['upgrade']['description'] = get_translation_specific(data["relationships"][relation_in]["relations"][relationship_relation_in]['upgrade']['description'])
+                        data["relationships"][relation_in]["relations"][relationship_relation_in]['upgrade']['relation_id'] = data["relationships"][relation_in]["relations"][relationship_relation_in]['upgrade']['relation']
+                        data["relationships"][relation_in]["relations"][relationship_relation_in]['upgrade']['relation'] = get_translation_specific(data["relationships"][relation_in]["relations"][relationship_relation_in]['upgrade']['relation'])
+                    except:
+                        pass
 
     return data
 
