@@ -217,7 +217,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -313,7 +313,7 @@
             "att_rate": 0.5,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhancements": [
@@ -402,6 +402,7 @@
             "can_enhance": false,
             "description": "sk_c1083_2_de",
             "values": [
+                0.07,
                 0.05
             ],
             "passive": true,
@@ -498,7 +499,7 @@
             "can_enhance": true,
             "description": "sk_c1083_3_de",
             "values": [
-                0.55
+                0.65
             ],
             "passive": false,
             "cooldown": 4,
@@ -507,8 +508,8 @@
             "att_rate": 0.5,
             "buff": [],
             "debuff": [
-                "28",
-                "32"
+                28,
+                32
             ],
             "common": [],
             "soul_description": "sk_c1083_3s_de",

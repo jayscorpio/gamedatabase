@@ -311,7 +311,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -409,10 +409,10 @@
             "pow": 1.05,
             "att_rate": 1.5,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhanced_description": "sk_c3071_2u_de",
@@ -482,8 +482,8 @@
             "pow": 0.95,
             "att_rate": 1.5,
             "buff": [
-                "1",
-                "2"
+                1,
+                2
             ],
             "debuff": [],
             "common": [],

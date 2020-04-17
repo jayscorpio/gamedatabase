@@ -5,7 +5,7 @@
     "description": "exc104301_desc",
     "unit": "c1043",
     "role": "mage",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1043",
     "stat": {
         "type": "speed",

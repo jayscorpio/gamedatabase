@@ -1,6 +1,6 @@
 {
     "_id": "42",
-    "id": "42",
+    "id": 42,
     "icon": "stic_lovely",
     "type": "buff",
     "name": "stic_lovely_skeffnm",

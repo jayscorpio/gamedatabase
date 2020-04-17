@@ -319,7 +319,7 @@
             "pow": 0.9,
             "att_rate": 0.8,
             "buff": [
-                "15"
+                15
             ],
             "debuff": [],
             "common": [],
@@ -415,8 +415,8 @@
             "pow": 0.9,
             "att_rate": 1.2,
             "buff": [
-                "15",
-                "5"
+                15,
+                5
             ],
             "debuff": [],
             "common": [],
@@ -512,10 +512,10 @@
             "pow": 0.9,
             "att_rate": 1.5,
             "buff": [
-                "15"
+                15
             ],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c1033_3s_de",

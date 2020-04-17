@@ -158,7 +158,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -281,7 +281,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -313,10 +313,10 @@
             "att_rate": 0.6,
             "buff": [],
             "debuff": [
-                "25"
+                25
             ],
             "common": [
-                "56"
+                56
             ],
             "enhancements": [
                 {
@@ -483,8 +483,8 @@
             "att_rate": 0.5,
             "buff": [],
             "debuff": [
-                "19",
-                "27"
+                19,
+                27
             ],
             "common": [],
             "soul_description": "sk_c2042_3s_de",

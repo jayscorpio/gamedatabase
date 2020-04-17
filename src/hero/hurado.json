@@ -137,7 +137,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -252,7 +252,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -313,10 +313,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.9,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "28"
+                28
             ],
             "common": [],
             "enhancements": [
@@ -490,7 +490,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c3055_3s_de",
             "soul_requirement": 20,

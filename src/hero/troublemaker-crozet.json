@@ -326,16 +326,16 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c2036_1s_de",
             "soul_requirement": 10,
             "soul_pow": 0.95,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_eff1_5",
@@ -584,7 +584,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "2",
+                2,
                 "c2036_r"
             ],
             "debuff": [],

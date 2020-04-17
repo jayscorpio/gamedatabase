@@ -233,7 +233,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -326,10 +326,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhanced_description": "sk_c1086_1u_de",
@@ -425,8 +425,8 @@
             "pow": 1,
             "att_rate": 0.9,
             "buff": [
-                "1",
-                "46"
+                1,
+                46
             ],
             "debuff": [],
             "common": [],
@@ -523,13 +523,13 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c1086_3s_de",
             "soul_requirement": 10,
             "soul_pow": 1,
-            "soul_att_rate": 2,
+            "soul_att_rate": 2.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",

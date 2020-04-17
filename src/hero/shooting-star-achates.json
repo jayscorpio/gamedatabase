@@ -326,10 +326,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "enhancements": [
@@ -442,11 +442,11 @@
             "att_rate": 0,
             "buff": [
                 "c2017_r",
-                "14"
+                14
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c2017_2s_de",
             "soul_requirement": 20,

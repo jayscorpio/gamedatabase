@@ -329,16 +329,16 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [
-                "33"
+                33
             ],
             "soul_description": "sk_c2022_1s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",

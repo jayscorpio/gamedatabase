@@ -5,7 +5,7 @@
     "description": "exc102301_desc",
     "unit": "c1023",
     "role": "assassin",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1023",
     "stat": {
         "type": "cri",

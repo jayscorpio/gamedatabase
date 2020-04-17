@@ -341,9 +341,11 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "21"
+                21
             ],
-            "common": [],
+            "common": [
+                33
+            ],
             "enhanced_description": "sk_c1050_1u_de",
             "enhancements": [
                 {
@@ -440,7 +442,7 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhancements": [
@@ -537,11 +539,11 @@
             "pow": 1.05,
             "att_rate": 1.1,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [
-                "18",
-                "21"
+                18,
+                21
             ],
             "common": [],
             "soul_description": "sk_c1050_3s_de",

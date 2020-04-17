@@ -5,7 +5,7 @@
     "description": "exc200301_desc",
     "unit": "c2003",
     "role": "knight",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c2003",
     "stat": {
         "type": "acc",

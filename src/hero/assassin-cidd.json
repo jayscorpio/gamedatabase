@@ -142,7 +142,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -265,7 +265,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -329,7 +329,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [
@@ -443,7 +443,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [],
             "common": [],
@@ -513,18 +513,18 @@
             "pow": 0.95,
             "att_rate": 1.5,
             "buff": [
-                "10"
+                10
             ],
             "debuff": [
-                "28"
+                28
             ],
             "common": [
-                "56"
+                56
             ],
             "soul_description": "sk_c2014_3s_de",
             "soul_requirement": 10,
             "soul_pow": 0.95,
-            "soul_att_rate": 2,
+            "soul_att_rate": 2.0,
             "enhanced_description": "sk_c2014_3u_de",
             "enhancements": [
                 {

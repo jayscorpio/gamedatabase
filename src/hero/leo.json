@@ -142,7 +142,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -265,7 +265,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -329,7 +329,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhancements": [
@@ -427,7 +427,7 @@
             "att_rate": 1.35,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "soul_description": "sk_c1029_2s_de",
@@ -527,8 +527,8 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "20",
-                "19"
+                20,
+                19
             ],
             "common": [],
             "enhanced_description": "sk_c1029_3u_de",

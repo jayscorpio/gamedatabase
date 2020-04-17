@@ -219,7 +219,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -312,7 +312,9 @@
             "pow": 0.9,
             "att_rate": 0.8,
             "buff": [],
-            "debuff": [],
+            "debuff": [
+                28
+            ],
             "common": [],
             "soul_description": "sk_c2043_1s_de",
             "soul_requirement": 20,
@@ -509,7 +511,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "28"
+                28
             ],
             "common": [],
             "enhanced_description": "sk_c2043_3u_de",

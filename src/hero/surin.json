@@ -310,10 +310,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.9,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhancements": [
@@ -409,11 +409,11 @@
             "att_rate": 1.4,
             "buff": [],
             "debuff": [
-                "17",
-                "32"
+                17,
+                32
             ],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c1065_2s_de",
             "soul_requirement": 20,
@@ -513,7 +513,7 @@
             "att_rate": 1.8,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhancements": [

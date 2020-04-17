@@ -5,7 +5,7 @@
     "description": "exc107101_desc",
     "unit": "c1071",
     "role": "ranger",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1071",
     "stat": {
         "type": "acc",

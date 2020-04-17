@@ -311,7 +311,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -388,7 +388,7 @@
             "can_enhance": false,
             "description": "sk_c3015_2_de",
             "values": [
-                8
+                8.0
             ],
             "passive": true,
             "cooldown": 0,
@@ -396,8 +396,8 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "1",
-                "14"
+                1,
+                14
             ],
             "debuff": [],
             "common": [],
@@ -485,7 +485,7 @@
             "soul_description": "sk_c3015_3s_de",
             "soul_requirement": 10,
             "soul_pow": 0.8,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhanced_description": "sk_c3015_3u_de",
             "enhancements": [
                 {

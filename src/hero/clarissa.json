@@ -333,10 +333,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [
@@ -431,7 +431,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "38"
+                38
             ],
             "debuff": [],
             "common": [],
@@ -526,10 +526,12 @@
             "soul_gain": 2,
             "pow": 1,
             "att_rate": 0.8,
-            "buff": [],
+            "buff": [
+                38
+            ],
             "debuff": [
-                "32",
-                "18"
+                32,
+                18
             ],
             "common": [],
             "soul_description": "sk_c1028_3s_de",

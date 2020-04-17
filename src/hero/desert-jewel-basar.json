@@ -133,7 +133,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -256,7 +256,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -320,7 +320,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c2053_1s_de",
@@ -515,7 +515,7 @@
             "pow": 0,
             "att_rate": 0,
             "buff": [
-                "12"
+                12
             ],
             "debuff": [],
             "common": [],

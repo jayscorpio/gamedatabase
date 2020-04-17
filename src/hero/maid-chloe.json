@@ -231,7 +231,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -324,16 +324,16 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c2049_1s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -580,8 +580,8 @@
             "pow": 0,
             "att_rate": 0,
             "buff": [
-                "16",
-                "1"
+                16,
+                1
             ],
             "debuff": [],
             "common": [],

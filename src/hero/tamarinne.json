@@ -154,7 +154,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -277,7 +277,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -336,11 +336,11 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.75,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [
-                "33"
+                33
             ],
             "soul_description": "sk_c1067_1s_de",
             "soul_requirement": 20,
@@ -470,7 +470,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [],
             "common": [],
@@ -596,11 +596,11 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "43"
+                43
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "enhanced_description": "sk_c1067_3u_de",
             "enhancements": [

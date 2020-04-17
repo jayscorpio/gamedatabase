@@ -334,7 +334,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "24"
+                24
             ],
             "common": [],
             "soul_description": "sk_c2050_1s_de",
@@ -521,7 +521,7 @@
             "att_rate": 1.8,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhanced_description": "sk_c2050_3u_de",

@@ -312,10 +312,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "26"
+                26
             ],
             "common": [],
             "enhancements": [
@@ -412,7 +412,7 @@
             "pow": 1.05,
             "att_rate": 0.7,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [],
@@ -510,7 +510,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "34"
+                34
             ],
             "soul_description": "sk_c2020_3s_de",
             "soul_requirement": 10,

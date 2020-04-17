@@ -316,7 +316,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "26"
+                26
             ],
             "common": [],
             "enhancements": [
@@ -427,7 +427,7 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "26"
+                26
             ],
             "common": [],
             "enhancements": [
@@ -492,8 +492,8 @@
             "att_rate": 1.8,
             "buff": [],
             "debuff": [
-                "27",
-                "20"
+                27,
+                20
             ],
             "common": [],
             "soul_description": "sk_c4065_3s_de",

@@ -334,12 +334,14 @@
             "soul_gain": 1,
             "pow": 1,
             "att_rate": 0.7,
-            "buff": [],
+            "buff": [
+                55
+            ],
             "debuff": [
-                "20"
+                20
             ],
             "common": [
-                "36"
+                36
             ],
             "enhancements": [
                 {
@@ -451,9 +453,11 @@
             "soul_gain": 2,
             "pow": 0.9,
             "att_rate": 0.3,
-            "buff": [],
+            "buff": [
+                55
+            ],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhancements": [
@@ -578,11 +582,11 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "55"
+                55
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c1012_3s_de",
             "soul_requirement": 20,

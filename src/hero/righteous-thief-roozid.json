@@ -323,7 +323,7 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhancements": [
@@ -417,7 +417,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhancements": [
@@ -510,8 +510,8 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "11",
-                "3"
+                11,
+                3
             ],
             "debuff": [],
             "common": [],

@@ -5,7 +5,7 @@
     "description": "exc101601_desc",
     "unit": "c1016",
     "role": "warrior",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1016",
     "stat": {
         "type": "acc",

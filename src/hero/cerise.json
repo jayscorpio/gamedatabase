@@ -231,7 +231,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -324,7 +324,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -421,7 +421,7 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c1081_2s_de",
@@ -522,11 +522,11 @@
             "pow": 1.1,
             "att_rate": 0.9,
             "buff": [
-                "6"
+                6
             ],
             "debuff": [
-                "19",
-                "61"
+                19,
+                61
             ],
             "common": [],
             "enhanced_description": "sk_c1081_3u_de",

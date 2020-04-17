@@ -317,10 +317,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "26"
+                26
             ],
             "common": [],
             "enhanced_description": "sk_c5071_1u_de",
@@ -434,7 +434,7 @@
             "att_rate": 0.7,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [
@@ -503,17 +503,17 @@
             "cooldown": 5,
             "soul_gain": 3,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "29",
-                "27"
+                29,
+                27
             ],
             "common": [],
             "soul_description": "sk_c5071_3s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",

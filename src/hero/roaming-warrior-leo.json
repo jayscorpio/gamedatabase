@@ -319,10 +319,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhanced_description": "sk_c2029_1u_de",
@@ -517,7 +517,7 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "53"
+                53
             ],
             "common": [],
             "soul_description": "sk_c2029_3s_de",

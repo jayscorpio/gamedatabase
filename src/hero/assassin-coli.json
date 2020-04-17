@@ -233,7 +233,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -326,8 +326,8 @@
             "pow": 1,
             "att_rate": 0.9,
             "buff": [
-                "15",
-                "3"
+                15,
+                3
             ],
             "debuff": [],
             "common": [],
@@ -412,8 +412,8 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "1",
-                "15"
+                1,
+                15
             ],
             "debuff": [],
             "common": [],
@@ -497,14 +497,14 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                "28",
-                "20"
+                28,
+                20
             ],
             "common": [],
             "soul_description": "sk_c2033_3s_de",
             "soul_requirement": 20,
             "soul_pow": 0.8,
-            "soul_att_rate": 3,
+            "soul_att_rate": 3.0,
             "enhanced_description": "sk_c2033_3u_de",
             "enhancements": [
                 {

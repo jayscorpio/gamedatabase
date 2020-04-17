@@ -172,7 +172,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -295,7 +295,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -327,7 +327,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "28"
+                28
             ],
             "common": [],
             "enhancements": [
@@ -424,7 +424,7 @@
             "pow": 1,
             "att_rate": 1.4,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [],
@@ -525,11 +525,11 @@
             "pow": 0.95,
             "att_rate": 0.8,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [
-                "34"
+                34
             ],
             "enhancements": [
                 {

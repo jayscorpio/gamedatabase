@@ -227,7 +227,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -323,7 +323,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhancements": [
@@ -437,7 +437,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [],
@@ -508,7 +508,7 @@
             "att_rate": 1.8,
             "buff": [],
             "debuff": [
-                "28"
+                28
             ],
             "common": [],
             "soul_description": "sk_c3014_3s_de",

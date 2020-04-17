@@ -303,10 +303,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhancements": [
@@ -488,10 +488,10 @@
             "pow": 1,
             "att_rate": 0.9,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "soul_description": "sk_c2047_3s_de",

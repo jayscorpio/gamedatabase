@@ -219,7 +219,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -312,18 +312,18 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c1021_1s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -436,8 +436,8 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "31",
-                "32"
+                31,
+                32
             ],
             "common": [],
             "enhancements": [
@@ -562,11 +562,11 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "4"
+                4
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "enhanced_description": "sk_c1021_3u_de",
             "enhancements": [

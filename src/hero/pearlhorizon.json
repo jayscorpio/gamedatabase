@@ -213,7 +213,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -306,10 +306,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "enhancements": [
@@ -424,7 +424,7 @@
             "att_rate": 0.6,
             "buff": [],
             "debuff": [
-                "21"
+                21
             ],
             "common": [],
             "enhancements": [
@@ -494,8 +494,8 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                "20",
-                "21"
+                20,
+                21
             ],
             "common": [],
             "soul_description": "sk_c3073_3s_de",

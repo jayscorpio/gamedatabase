@@ -499,7 +499,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "33"
+                33
             ],
             "soul_description": "sk_c1001_2s_de",
             "soul_requirement": 10,
@@ -597,7 +597,7 @@
             "pow": 1,
             "att_rate": 0.9,
             "buff": [
-                "2"
+                2
             ],
             "debuff": [],
             "common": [],

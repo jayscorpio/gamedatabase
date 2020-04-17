@@ -233,7 +233,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -326,10 +326,12 @@
             "pow": 0.8,
             "att_rate": 0.9,
             "buff": [
-                "42"
+                42
             ],
             "debuff": [],
-            "common": [],
+            "common": [
+                33
+            ],
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -454,10 +456,10 @@
             "pow": 0.95,
             "att_rate": 0.8,
             "buff": [
-                "42"
+                42
             ],
             "debuff": [
-                "27"
+                27
             ],
             "common": [],
             "soul_description": "sk_c2028_2s_de",
@@ -587,12 +589,12 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "42",
-                "12"
+                42,
+                12
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "enhancements": [
                 {

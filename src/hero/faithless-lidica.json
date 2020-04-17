@@ -310,10 +310,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "enhancements": [
@@ -504,7 +504,9 @@
             "soul_gain": 2,
             "pow": 0.95,
             "att_rate": 1.4,
-            "buff": [],
+            "buff": [
+                46
+            ],
             "debuff": [],
             "common": [],
             "soul_description": "sk_c2046_3s_de",

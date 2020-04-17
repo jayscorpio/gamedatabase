@@ -258,7 +258,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -354,7 +354,7 @@
             "att_rate": 0.7,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [
@@ -452,7 +452,7 @@
             "att_rate": 0.4,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "soul_description": "sk_c1002_2s_de",
@@ -554,11 +554,11 @@
             "pow": 1.05,
             "att_rate": 0.6,
             "buff": [
-                "12",
-                "5"
+                12,
+                5
             ],
             "debuff": [
-                "25"
+                25
             ],
             "common": [],
             "enhancements": [

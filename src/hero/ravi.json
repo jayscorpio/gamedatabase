@@ -301,11 +301,11 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [
-                "33"
+                33
             ],
             "soul_description": "sk_c1019_1s_de",
             "soul_requirement": 20,
@@ -500,7 +500,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhanced_description": "sk_c1019_3u_de",

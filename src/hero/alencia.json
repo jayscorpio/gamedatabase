@@ -313,7 +313,7 @@
             "att_rate": 0.5,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "soul_description": "sk_c1100_1s_de",
@@ -414,7 +414,7 @@
             "pow": 1,
             "att_rate": 0.5,
             "buff": [
-                "59"
+                59
             ],
             "debuff": [],
             "common": [],
@@ -510,7 +510,7 @@
             "pow": 1,
             "att_rate": 0.5,
             "buff": [
-                "2"
+                2
             ],
             "debuff": [],
             "common": [],

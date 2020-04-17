@@ -227,7 +227,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -549,8 +549,8 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "25",
-                "18"
+                25,
+                18
             ],
             "common": [],
             "soul_description": "sk_c3003_3s_de",
@@ -834,21 +834,21 @@
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4003_06_1_de",
                             "upgrade": "str_c4003_06_1_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4003_06_2_de",
                             "upgrade": "str_c4003_06_2_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 2,
+                            "value": 2.0,
                             "description": "str_c4003_06_3_de",
                             "upgrade": "str_c4003_06_3_up"
                         }
@@ -978,21 +978,21 @@
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4003_10_1_de",
                             "upgrade": "str_c4003_10_1_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 2,
+                            "value": 2.0,
                             "description": "str_c4003_10_2_de",
                             "upgrade": "str_c4003_10_2_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 2,
+                            "value": 2.0,
                             "description": "str_c4003_10_3_de",
                             "upgrade": "str_c4003_10_3_up"
                         }

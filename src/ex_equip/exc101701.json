@@ -5,7 +5,7 @@
     "description": "exc101701_desc",
     "unit": "c1017",
     "role": "manauser",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1017",
     "stat": {
         "type": "max_hp_rate",

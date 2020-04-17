@@ -227,7 +227,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -320,19 +320,19 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "19",
-                "31"
+                19,
+                31
             ],
             "common": [
-                "51"
+                51
             ],
             "soul_description": "sk_c4051_1s_de",
             "soul_requirement": 10,
             "soul_pow": 0.95,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -444,10 +444,10 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "5"
+                5
             ],
             "debuff": [
-                "31"
+                31
             ],
             "common": [],
             "enhancements": [
@@ -499,10 +499,10 @@
             "cooldown": 4,
             "soul_gain": 3,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "31"
+                31
             ],
             "common": [],
             "enhanced_description": "sk_c4051_3u_de",

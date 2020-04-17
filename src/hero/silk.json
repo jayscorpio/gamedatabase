@@ -233,7 +233,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -330,7 +330,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c1004_1s_de",
             "soul_requirement": 20,
@@ -541,10 +541,10 @@
             "pow": 1.05,
             "att_rate": 0.85,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhanced_description": "sk_c1004_3u_de",

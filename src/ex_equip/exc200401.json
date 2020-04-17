@@ -5,7 +5,7 @@
     "description": "exc200401_desc",
     "unit": "c2004",
     "role": "ranger",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c2004",
     "stat": {
         "type": "speed",

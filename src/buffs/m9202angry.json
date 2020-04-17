@@ -1,0 +1,8 @@
+{
+    "_id": "m9202angry",
+    "id": "m9202_angry",
+    "icon": "stic_madness",
+    "type": "buff",
+    "name": "m9202_angry_skeffnm",
+    "effect": "m9202_angry_de"
+}

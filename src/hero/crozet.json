@@ -350,7 +350,7 @@
             "att_rate": 0.6,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhancements": [
@@ -432,8 +432,8 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "5",
-                "2"
+                5,
+                2
             ],
             "debuff": [],
             "common": [],
@@ -520,7 +520,7 @@
             "att_rate": 0.5,
             "buff": [],
             "debuff": [
-                "25"
+                25
             ],
             "common": [],
             "soul_description": "sk_c1036_3s_de",

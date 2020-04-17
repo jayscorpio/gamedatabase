@@ -300,7 +300,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "25"
+                25
             ],
             "common": [],
             "soul_description": "sk_c3094_1s_de",
@@ -495,8 +495,8 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "5",
-                "12"
+                5,
+                12
             ],
             "debuff": [],
             "common": [],

@@ -5,7 +5,7 @@
     "description": "exc104201_desc",
     "unit": "c1042",
     "role": "knight",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1042",
     "stat": {
         "type": "max_hp_rate",

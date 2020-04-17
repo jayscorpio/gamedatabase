@@ -5,7 +5,7 @@
     "description": "exc202201_desc",
     "unit": "c2022",
     "role": "manauser",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c2022",
     "stat": {
         "type": "res",

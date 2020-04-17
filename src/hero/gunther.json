@@ -320,10 +320,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.85,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhancements": [
@@ -515,8 +515,8 @@
             "att_rate": 2.2,
             "buff": [],
             "debuff": [
-                "20",
-                "18"
+                20,
+                18
             ],
             "common": [],
             "soul_description": "sk_c3024_3s_de",

@@ -318,10 +318,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhancements": [
@@ -397,12 +397,12 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c4025_2s_de",
             "soul_requirement": 10,
             "soul_pow": 0.95,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhanced_description": "sk_c4025_2u_de",
             "enhancements": [
                 {
@@ -486,7 +486,7 @@
             "att_rate": 1.8,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [

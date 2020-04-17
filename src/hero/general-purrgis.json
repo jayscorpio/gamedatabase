@@ -323,10 +323,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "25"
+                25
             ],
             "common": [],
             "enhancements": [
@@ -511,10 +511,10 @@
             "pow": 1,
             "att_rate": 0.8,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "soul_description": "sk_c2035_3s_de",

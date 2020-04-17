@@ -164,7 +164,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -287,7 +287,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -316,7 +316,7 @@
             "pow": 0.95,
             "att_rate": 0.9,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [],
@@ -412,10 +412,10 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [
@@ -510,11 +510,11 @@
             "pow": 1,
             "att_rate": 1.6,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c1014_3s_de",
             "soul_requirement": 10,

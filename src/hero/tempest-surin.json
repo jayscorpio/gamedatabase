@@ -305,10 +305,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhanced_description": "sk_c2065_1u_de",
@@ -500,10 +500,10 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 1.05,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "29"
+                29
             ],
             "common": [],
             "soul_description": "sk_c2065_3s_de",

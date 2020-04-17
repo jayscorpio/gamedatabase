@@ -326,7 +326,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -433,10 +433,10 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 0.8,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "soul_description": "sk_c3061_2s_de",
@@ -565,7 +565,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [],
             "common": [],

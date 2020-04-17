@@ -252,7 +252,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -345,7 +345,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -469,9 +469,9 @@
             "cooldown": 4,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [
-                "5"
+                5
             ],
             "debuff": [],
             "common": [],
@@ -582,17 +582,17 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [
-                "1",
-                "40"
+                1,
+                40
             ],
             "debuff": [],
             "common": [],
             "soul_description": "sk_c1076_3s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhanced_description": "sk_c1076_3u_de",
             "enhancements": [
                 {

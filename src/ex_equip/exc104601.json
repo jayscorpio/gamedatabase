@@ -5,7 +5,7 @@
     "description": "exc104601_desc",
     "unit": "c1046",
     "role": "ranger",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1046",
     "stat": {
         "type": "acc",
@@ -29,7 +29,8 @@
             "description": "ek_c104601_03_de",
             "skill_description": "ek_c104601_03sk_de",
             "values": [
-                22
+                22,
+                27
             ]
         }
     ]

@@ -327,7 +327,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "27"
+                27
             ],
             "common": [],
             "enhancements": [
@@ -452,11 +452,11 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "44"
+                44
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "enhanced_description": "sk_c1079_2u_de",
             "enhancements": [
@@ -493,7 +493,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "34"
+                34
             ],
             "soul_description": "sk_c1079_3s_de",
             "soul_requirement": 10,

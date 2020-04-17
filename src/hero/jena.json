@@ -318,7 +318,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -400,8 +400,8 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "17",
-                "19"
+                17,
+                19
             ],
             "common": [],
             "enhanced_description": "sk_c3052_2u_de",
@@ -483,7 +483,7 @@
             "att_rate": 0.85,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "soul_description": "sk_c3052_3s_de",

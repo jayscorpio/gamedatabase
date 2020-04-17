@@ -317,13 +317,13 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
                 "c1053_r"
             ],
             "common": [
-                "36"
+                36
             ],
             "enhancements": [
                 {
@@ -420,8 +420,8 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "22",
-                "17"
+                22,
+                17
             ],
             "common": [],
             "enhancements": [
@@ -517,7 +517,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "29"
+                29
             ],
             "common": [],
             "soul_description": "sk_c1053_3s_de",

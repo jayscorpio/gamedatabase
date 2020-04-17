@@ -352,10 +352,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1.05,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "31"
+                31
             ],
             "common": [],
             "enhanced_description": "sk_c1048_1u_de",
@@ -438,11 +438,11 @@
             "pow": 1,
             "att_rate": 0.7,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [
-                "27",
-                "31"
+                27,
+                31
             ],
             "common": [],
             "enhancements": [
@@ -528,8 +528,8 @@
             "att_rate": 0.85,
             "buff": [],
             "debuff": [
-                "31",
-                "20"
+                31,
+                20
             ],
             "common": [],
             "soul_description": "sk_c1048_3s_de",

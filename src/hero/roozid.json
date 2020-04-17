@@ -316,7 +316,7 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhancements": [
@@ -410,7 +410,7 @@
             "att_rate": 1.2,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhancements": [
@@ -503,11 +503,11 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c3013_3s_de",
             "soul_requirement": 20,
@@ -812,21 +812,21 @@
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4013_06_1_de",
                             "upgrade": "str_c4013_06_1_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4013_06_2_de",
                             "upgrade": "str_c4013_06_2_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4013_06_3_de",
                             "upgrade": "str_c4013_06_3_up"
                         }
@@ -956,21 +956,21 @@
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 1,
+                            "value": 1.0,
                             "description": "str_c4013_10_1_de",
                             "upgrade": "str_c4013_10_1_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 2,
+                            "value": 2.0,
                             "description": "str_c4013_10_2_de",
                             "upgrade": "str_c4013_10_2_up"
                         },
                         {
                             "type": "stat",
                             "stat": "speed",
-                            "value": 2,
+                            "value": 2.0,
                             "description": "str_c4013_10_3_de",
                             "upgrade": "str_c4013_10_3_up"
                         }

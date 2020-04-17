@@ -333,7 +333,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "33"
+                33
             ],
             "soul_description": "sk_c1022_1s_de",
             "soul_requirement": 20,
@@ -448,7 +448,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "5"
+                5
             ],
             "debuff": [],
             "common": [],
@@ -574,7 +574,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "6"
+                6
             ],
             "debuff": [],
             "common": [],

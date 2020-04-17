@@ -231,7 +231,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -326,7 +326,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "33"
+                33
             ],
             "enhancements": [
                 {
@@ -439,10 +439,10 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "5"
+                5
             ],
             "debuff": [
-                "25"
+                25
             ],
             "common": [],
             "soul_description": "sk_c1089_2s_de",

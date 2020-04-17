@@ -121,7 +121,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -244,7 +244,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -305,10 +305,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "32"
+                32
             ],
             "common": [],
             "enhancements": [
@@ -401,16 +401,16 @@
             "cooldown": 2,
             "soul_gain": 1,
             "pow": 0.9,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c2004_2s_de",
             "soul_requirement": 20,
             "soul_pow": 0.9,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -504,8 +504,8 @@
             "att_rate": 1.8,
             "buff": [],
             "debuff": [
-                "28",
-                "27"
+                28,
+                27
             ],
             "common": [],
             "enhanced_description": "sk_c2004_3u_de",

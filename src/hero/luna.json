@@ -415,7 +415,7 @@
             "cooldown": 0,
             "soul_gain": 0,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -514,7 +514,7 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "soul_description": "sk_c1066_3s_de",

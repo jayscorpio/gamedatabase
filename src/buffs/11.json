@@ -1,6 +1,6 @@
 {
     "_id": "11",
-    "id": "11",
+    "id": 11,
     "icon": "stic_heal",
     "type": "buff",
     "name": "stic_heal_skeffnm",

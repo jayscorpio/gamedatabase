@@ -324,10 +324,10 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "24"
+                24
             ],
             "common": [],
             "enhancements": [
@@ -514,9 +514,9 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "19",
-                "27",
-                "18"
+                19,
+                27,
+                18
             ],
             "common": [],
             "enhanced_description": "sk_c1015_3u_de",

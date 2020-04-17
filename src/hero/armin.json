@@ -336,7 +336,7 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhancements": [
@@ -463,11 +463,11 @@
             "pow": 0.9,
             "att_rate": 0.3,
             "buff": [
-                "2"
+                2
             ],
             "debuff": [
-                "22",
-                "24"
+                22,
+                24
             ],
             "common": [],
             "enhanced_description": "sk_c1008_2u_de",
@@ -580,7 +580,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "5"
+                5
             ],
             "debuff": [],
             "common": [],

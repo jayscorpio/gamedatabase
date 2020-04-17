@@ -320,12 +320,12 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [
-                "18"
+                18
             ],
             "common": [],
             "enhancements": [
@@ -433,7 +433,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [],
             "common": [],

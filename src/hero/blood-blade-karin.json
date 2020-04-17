@@ -324,7 +324,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -516,7 +516,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c2011_3s_de",
             "soul_requirement": 10,

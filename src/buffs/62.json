@@ -1,0 +1,8 @@
+{
+    "_id": "62",
+    "id": 62,
+    "icon": "stic_def_up2",
+    "type": "buff",
+    "name": "stic_def_up2_skeffnm",
+    "effect": "stic_def_up2_de"
+}

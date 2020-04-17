@@ -320,7 +320,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhancements": [
@@ -409,7 +409,7 @@
             "can_enhance": false,
             "description": "sk_c1009_2_de",
             "values": [
-                10
+                10.0
             ],
             "passive": true,
             "cooldown": 0,
@@ -417,8 +417,8 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "1",
-                "2"
+                1,
+                2
             ],
             "debuff": [],
             "common": [],
@@ -515,7 +515,7 @@
             "att_rate": 1.4,
             "buff": [],
             "debuff": [
-                "27"
+                27
             ],
             "common": [],
             "soul_description": "sk_c1009_3s_de",

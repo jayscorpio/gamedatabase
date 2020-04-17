@@ -269,7 +269,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -365,7 +365,7 @@
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "enhancements": [
@@ -460,7 +460,7 @@
             "pow": 1,
             "att_rate": 0.8,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [],
             "common": [],
@@ -559,7 +559,7 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1.3,
+            "att_rate": 1.6,
             "buff": [],
             "debuff": [],
             "common": [],

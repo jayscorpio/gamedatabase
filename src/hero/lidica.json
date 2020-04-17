@@ -245,7 +245,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -436,7 +436,8 @@
             "att_rate": 0.7,
             "buff": [],
             "debuff": [
-                "22"
+                22,
+                27
             ],
             "common": [],
             "soul_description": "sk_c1046_2s_de",
@@ -535,11 +536,10 @@
             "pow": 1,
             "att_rate": 1.6,
             "buff": [
-                "46"
+                46
             ],
             "debuff": [
-                "19",
-                "27"
+                19
             ],
             "common": [],
             "enhancements": [

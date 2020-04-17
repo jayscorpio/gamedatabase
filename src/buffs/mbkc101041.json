@@ -1,0 +1,8 @@
+{
+    "_id": "mbkc101041",
+    "id": "mbk_c1010_4_1",
+    "icon": "stic_debuff_one",
+    "type": "debuff",
+    "name": "mbk_c1010_4_sknm",
+    "effect": "mbk_c1010_4_1_de"
+}

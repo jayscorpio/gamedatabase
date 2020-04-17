@@ -321,11 +321,11 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [
-                "36"
+                36
             ],
             "enhancements": [
                 {
@@ -439,9 +439,9 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "20",
-                "21",
-                "22"
+                20,
+                21,
+                22
             ],
             "common": [],
             "enhancements": [
@@ -510,19 +510,19 @@
             "cooldown": 5,
             "soul_gain": 3,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [
-                "2"
+                2
             ],
             "debuff": [
-                "18",
-                "17"
+                18,
+                17
             ],
             "common": [],
             "soul_description": "sk_c2010_3s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1,
+            "soul_att_rate": 1.0,
             "enhanced_description": "sk_c2010_3u_de",
             "enhancements": [
                 {

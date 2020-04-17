@@ -224,7 +224,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -572,9 +572,9 @@
             "pow": 0,
             "att_rate": 0,
             "buff": [
-                "44",
-                "1",
-                "12"
+                44,
+                1,
+                12
             ],
             "debuff": [],
             "common": [],

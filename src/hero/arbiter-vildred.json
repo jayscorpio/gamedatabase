@@ -478,7 +478,7 @@
             "cooldown": 5,
             "soul_gain": 0,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -549,7 +549,7 @@
             "att_rate": 1.04,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "soul_description": "sk_c2007_3s_de",

@@ -318,7 +318,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.9,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],

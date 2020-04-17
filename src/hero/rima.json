@@ -227,7 +227,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -318,7 +318,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.8,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -430,10 +430,10 @@
             "att_rate": 1.3,
             "buff": [],
             "debuff": [
-                "21"
+                21
             ],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c3062_2s_de",
             "soul_requirement": 20,

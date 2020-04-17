@@ -5,7 +5,7 @@
     "description": "exc104001_desc",
     "unit": "c1040",
     "role": "mage",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c1040",
     "stat": {
         "type": "att_rate",

@@ -1,6 +1,6 @@
 {
     "_id": "20",
-    "id": "20",
+    "id": 20,
     "icon": "stic_stun",
     "type": "debuff",
     "name": "stic_stun_skeffnm",

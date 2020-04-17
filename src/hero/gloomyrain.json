@@ -320,11 +320,11 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 0.95,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "enhanced_description": "sk_c3074_1u_de",
             "enhancements": [
@@ -439,9 +439,9 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "20",
-                "21",
-                "25"
+                20,
+                21,
+                25
             ],
             "common": [],
             "enhancements": [
@@ -514,7 +514,7 @@
             "buff": [],
             "debuff": [],
             "common": [
-                "36"
+                36
             ],
             "soul_description": "sk_c3074_3s_de",
             "soul_requirement": 20,

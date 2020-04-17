@@ -217,7 +217,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -310,12 +310,12 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [
-                "15"
+                15
             ],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhancements": [
@@ -408,7 +408,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "15"
+                15
             ],
             "debuff": [],
             "common": [],
@@ -502,11 +502,11 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "15"
+                15
             ],
             "debuff": [],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c3011_3s_de",
             "soul_requirement": 20,

@@ -205,7 +205,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 2,
+                    "value": 2.0,
                     "type": "sub"
                 },
                 {
@@ -328,7 +328,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -360,7 +360,7 @@
             "att_rate": 0.85,
             "buff": [],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "soul_description": "sk_c1023_1s_de",
@@ -470,7 +470,7 @@
             "can_enhance": false,
             "description": "sk_c1023_2_de",
             "values": [
-                9
+                9.0
             ],
             "passive": true,
             "cooldown": 0,
@@ -478,7 +478,7 @@
             "pow": 1,
             "att_rate": 0,
             "buff": [
-                "14"
+                14
             ],
             "debuff": [],
             "common": [],
@@ -548,7 +548,7 @@
             "pow": 0.9,
             "att_rate": 1.7,
             "buff": [
-                "1"
+                1
             ],
             "debuff": [],
             "common": [],

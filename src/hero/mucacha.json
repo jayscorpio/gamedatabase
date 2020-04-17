@@ -227,7 +227,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -514,13 +514,13 @@
             "pow": 1,
             "att_rate": 1.5,
             "buff": [
-                "3"
+                3
             ],
             "debuff": [
-                "18"
+                18
             ],
             "common": [
-                "35"
+                35
             ],
             "soul_description": "sk_c3033_3s_de",
             "soul_requirement": 20,

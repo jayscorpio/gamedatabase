@@ -1,6 +1,6 @@
 {
     "_id": "10",
-    "id": "10",
+    "id": 10,
     "icon": "stic_dodge_up",
     "type": "buff",
     "name": "stic_dodge_up_skeffnm",

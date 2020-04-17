@@ -326,7 +326,7 @@
             "att_rate": 1.05,
             "buff": [],
             "debuff": [
-                "19"
+                19
             ],
             "common": [],
             "enhancements": [
@@ -413,7 +413,7 @@
             "soul_description": "sk_c1010_2s_de",
             "soul_requirement": 10,
             "soul_pow": 0.95,
-            "soul_att_rate": 2,
+            "soul_att_rate": 2.0,
             "enhanced_description": "sk_c1010_2u_de",
             "enhancements": [
                 {
@@ -494,10 +494,10 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                "20"
+                20
             ],
             "common": [],
             "enhancements": [

@@ -307,7 +307,7 @@
             "att_rate": 0.8,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "soul_description": "sk_c3095_1s_de",
@@ -409,7 +409,7 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "17"
+                17
             ],
             "common": [],
             "enhancements": [
@@ -505,8 +505,8 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                "17",
-                "18"
+                17,
+                18
             ],
             "common": [],
             "enhanced_description": "sk_c3095_3u_de",

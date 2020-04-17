@@ -5,7 +5,7 @@
     "description": "exc203501_desc",
     "unit": "c2035",
     "role": "warrior",
-    "rarity": "5",
+    "rarity": 5,
     "icon": "icon_eq_exclusive_c2035",
     "stat": {
         "type": "max_hp_rate",

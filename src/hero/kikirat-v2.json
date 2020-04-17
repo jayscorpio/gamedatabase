@@ -438,10 +438,10 @@
             "pow": 1,
             "att_rate": 0.4,
             "buff": [
-                "7"
+                7
             ],
             "debuff": [
-                "22"
+                22
             ],
             "common": [],
             "soul_description": "sk_c3084_3s_de",

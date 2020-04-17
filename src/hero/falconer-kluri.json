@@ -227,7 +227,7 @@
             "stats": [
                 {
                     "stat": "speed",
-                    "value": 4,
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -550,8 +550,8 @@
             "att_rate": 0,
             "buff": [],
             "debuff": [
-                "25",
-                "18"
+                25,
+                18
             ],
             "common": [],
             "soul_description": "sk_c4003_3s_de",
