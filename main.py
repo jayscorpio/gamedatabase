@@ -32,5 +32,5 @@ else:
     do_translate(args.dryrun)
 
 print('Translate script ran successfully!')
-print('Time to complete: ' + datetime.now() - startTime)
+print('Time to complete: ', datetime.now() - startTime)
 exit(0)
