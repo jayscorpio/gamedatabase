@@ -5,6 +5,7 @@ node_modules
 /build
 .sass-cache
 package-lock.json
+__pycache__
 
 # local env files
 .env.local
