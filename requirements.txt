@@ -1,1 +1,2 @@
 python-benedict==0.18.0
+tqdm==4.45.0

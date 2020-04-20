@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# from lib.utils import lib.utils.mount_assets
 import lib.utils
-# from lib.utils import *
 
 def get_data_parser(foldername):
     parser = {

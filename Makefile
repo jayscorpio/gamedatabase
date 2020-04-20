@@ -1,17 +1,17 @@
 setup:
-	python setup.py
+	pip install -r requirements.txt
 
 version:
-	python main.py -V
+	python main.py --version
 
-run:
+start:
 	python main.py
 
 build:
-	python main.py -B
+	python main.py --buildonly
 
 import:
-	python main.py -M
+	python main.py --importonly
 
 test:
-	python main.py -D
+	python main.py --dryrun --verbose

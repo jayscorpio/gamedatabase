@@ -6,22 +6,34 @@ import os
 import copy
 import subprocess
 from benedict import benedict
+from tqdm import tqdm
 
 from lib.variables import *
 from lib.parsers import get_data_parser
 
 
-def getLangKey(langFilePath):
-    return LANG_FILE_RE.sub(r"\3", langFilePath)
-
-def mkdir(folderName):
-    if not os.path.exists(BUILD_FOLDER + '/' + folderName):
-        os.makedirs(BUILD_FOLDER + '/' + folderName)
+def mPrint(*argv):
+    if not PARSED_ARGS.verbose:
+        return
+    return print(*argv)
 
 def printline():
     print('=================================')
 
+def getLangKey(langFilePath):
+    return LANG_FILE_RE.sub(r"\3", langFilePath)
+
+def mkdir(folderName):
+    if PARSED_ARGS.dryrun:
+        return
+
+    if not os.path.exists(BUILD_FOLDER + '/' + folderName):
+        os.makedirs(BUILD_FOLDER + '/' + folderName)
+
 def saveFile( filename, path, contents):
+    if PARSED_ARGS.dryrun:
+        return
+
     filepath = path + "/{0}.json".format(filename)
     with open(filepath, 'w') as f:
         json.dump(contents, f)
@@ -55,17 +67,19 @@ def get_translation(customLangData):
 def get_folder_files(srcFolder):
     return sorted(glob.glob("{0}/*.json".format(srcFolder)))
 
-def translate_folder(srcFolder, dryrunonly):
+def translate_folder(srcFolder):
     foldername = SRC_FOLDER_FILES_RE.sub(r"\2", srcFolder)
     fileParser = get_data_parser(foldername)
     printline()
-    print(foldername)
+    print("| Translating " + foldername)
     printline()
-    folder_files = get_folder_files(srcFolder)
+    if PARSED_ARGS.verbose:
+        folder_files = tqdm(get_folder_files(srcFolder))
+    else:
+        folder_files = get_folder_files(srcFolder)
 
     for file in folder_files:
         filename = JSON_FILES_RE.sub(r"\2", file)
-        print('* Translating '+filename)
         file_data = json.load(open(file));
         file_keys = file_data.keys()
         if "_id" not in file_keys:
@@ -76,11 +90,11 @@ def translate_folder(srcFolder, dryrunonly):
             get_translation_specific = get_translation(currentLanguageData)
             lang_key = getLangKey(lang)
             lang_folder = foldername+'-'+lang_key
+            if PARSED_ARGS.verbose:
+                folder_files.set_description("Translating {0}::{1}::{2}".format(foldername, filename, lang_key))
+            mkdir(lang_folder)
             jsonFileContents = fileParser(filename,benedict(copy.deepcopy(file_data)),get_translation_specific)
-            print('-- ' + lang_key)
-            if not dryrunonly:
-                mkdir(lang_folder)
-                saveFile(filename, BUILD_FOLDER+'/'+lang_folder, jsonFileContents)
+            saveFile(filename, BUILD_FOLDER+'/'+lang_folder, jsonFileContents)
 
 
 def mount_assets(folder,imageName,imageExtension):
@@ -99,10 +113,10 @@ def mount_collection_array(folderName):
         collection.append(data)
 
     saveFile(folderName, COLLECTIONS_FOLDER, collection)
-    print('Collection {0} saved'.format(folderName))
+    mPrint('Collection {0} saved'.format(folderName))
 
 def update_mongo(collection, filePath):
     printline()
-    print("** Updating MONGODB => collection \"{0}\" with file {1} **\n".format(collection, filePath))
+    mPrint("** Updating MONGODB => collection \"{0}\" with file {1} **\n".format(collection, filePath))
     subprocess.call(MONGOIMPORT_CMD.format(collection, filePath), shell=True)
-    print("\n** MONGODB => collection \"{0}\" updated **\n\n".format(collection))
+    mPrint("\n** MONGODB => collection \"{0}\" updated **\n\n".format(collection))

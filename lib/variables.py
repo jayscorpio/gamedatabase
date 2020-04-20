@@ -3,8 +3,11 @@ import re
 import os
 import json
 import glob
+from lib.argparse import parsed_args
 
 SCRIPT_VERSION = 2.1
+
+PARSED_ARGS = parsed_args()
 
 ASSETS_URL = "https://assets.epicsevendb.com/_source/"
 COLOR_TAG_RE = re.compile(r"(<#[a-z0-9]{4,6})>|(</>)", re.IGNORECASE)
