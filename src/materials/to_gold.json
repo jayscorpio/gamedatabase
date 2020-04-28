@@ -1,0 +1,8 @@
+{
+    "identifier": "to_gold",
+    "name": "gold_name",
+    "description": "gold_de",
+    "assets": {
+        "icon": "token_gold"
+    }
+}

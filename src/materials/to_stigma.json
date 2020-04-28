@@ -1,0 +1,8 @@
+{
+    "identifier": "to_stigma",
+    "name": "stigma_name",
+    "description": "stigma_de",
+    "assets": {
+        "icon": "token_stigma"
+    }
+}
