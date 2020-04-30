@@ -5,7 +5,7 @@ version:
 	python main.py --version
 
 start:
-	python main.py
+	python main.py --verbose
 
 build:
 	python main.py --buildonly
