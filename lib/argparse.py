@@ -13,6 +13,8 @@ parser.add_argument(
     "-D", "--dryrun", help="dry run, will run build without actually saving the files to dist_py, good for testing if code is not breaking", action="store_true")
 parser.add_argument(
     "-v", "--verbose", help="verbose, will print all actions done", action="store_true")
+parser.add_argument(
+    "-S", "--self", help="import to localhost as URI instead of atlas shard cluster", action="store_true")
 
 args = parser.parse_args()
 

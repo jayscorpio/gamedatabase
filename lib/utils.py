@@ -129,6 +129,13 @@ def update_mongo(collection, filePath):
     printline()
     mPrint(
         "** Updating MONGODB => collection \"{0}\" with file {1} **\n".format(collection, filePath))
-    subprocess.call(MONGOIMPORT_CMD.format(collection, filePath), shell=True)
+
+    if PARSED_ARGS.self:
+        subprocess.call(MONGOIMPORT_SELF_CMD.format(
+            collection, filePath), shell=True)
+    else:
+        subprocess.call(MONGOIMPORT_ATLAS_CMD.format(
+            collection, filePath), shell=True)
+
     mPrint(
         "\n** MONGODB => collection \"{0}\" updated **\n\n".format(collection))

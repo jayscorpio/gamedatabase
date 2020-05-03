@@ -7,10 +7,16 @@ version:
 start:
 	python main.py --verbose
 
+startself:
+	python main.py --verbose --self
+
 build:
 	python main.py --buildonly
 
 import:
+	python main.py --importonly
+
+importself:
 	python main.py --importonly
 
 test:
