@@ -16,18 +16,6 @@
     },
     "skill": {
         "description": "sk_ef405_de",
-        "enhancements": [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
-        ]
+        "enhancements": []
     }
 }
