@@ -17,7 +17,7 @@ import:
 	python main.py --importonly
 
 importself:
-	python main.py --importonly
+	python main.py --importonly --self
 
 test:
 	python main.py --dryrun --verbose
