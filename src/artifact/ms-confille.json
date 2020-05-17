@@ -1,0 +1,55 @@
+{
+    "identifier": "efr14",
+    "name": "efr14_name",
+    "rarity": 5,
+    "role": "ranger",
+    "limited": false,
+    "description": "efr14_desc",
+    "assets": {
+        "icon": "icon_art0090",
+        "image": "art0090_fu",
+        "thumbnail": "art0090_l"
+    },
+    "stats": {
+        "attack": 21,
+        "health": 32
+    },
+    "skill": {
+        "description": "sk_efr14_de",
+        "enhancements": [
+            [
+                0.3
+            ],
+            [
+                0.32999999999999996
+            ],
+            [
+                0.36
+            ],
+            [
+                0.39
+            ],
+            [
+                0.42000000000000004
+            ],
+            [
+                0.45000000000000007
+            ],
+            [
+                0.4800000000000001
+            ],
+            [
+                0.5100000000000001
+            ],
+            [
+                0.5400000000000001
+            ],
+            [
+                0.5700000000000002
+            ],
+            [
+                0.6000000000000002
+            ]
+        ]
+    }
+}

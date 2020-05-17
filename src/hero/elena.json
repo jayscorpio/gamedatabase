@@ -27,6 +27,25 @@
                     "description": "chre_c1091_1_rt",
                     "relation": "re_trust_tx",
                     "upgrade": {}
+                },
+                {
+                    "id": "c1090",
+                    "slot": 2,
+                    "description": "chre_c1091_2_rt",
+                    "relation": "re_trust_tx",
+                    "upgrade": {
+                        "id": "c1090",
+                        "slot": 2,
+                        "description": "chre_c1091_2_1_rt",
+                        "relation": "re_trust_tx"
+                    }
+                },
+                {
+                    "id": "c1090",
+                    "slot": 2,
+                    "description": "chre_c1091_2_1_rt",
+                    "relation": "re_trust_tx",
+                    "upgrade": {}
                 }
             ]
         }
