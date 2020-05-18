@@ -251,7 +251,7 @@ def ex_equip_parser(filename, data, get_translation_specific):
     data["description"] = get_translation_specific(data["description"])
 
     data["assets"] = {}
-    data["assets.icon"] = lib.utils.mount_assets("img/", data["icon"], "png")
+    data["assets.icon"] = lib.utils.mount_assets("item/", data["icon"], "png")
     del data["icon"]
 
     for sk_exeq_index in range(len(data["skills"])):
