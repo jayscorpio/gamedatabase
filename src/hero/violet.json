@@ -45,8 +45,8 @@
                 {
                     "id": "c1089",
                     "slot": 4,
-                    "description": "chre_c1074_7_rt",
-                    "relation": "re_longing_tx",
+                    "description": "chre_c1074_7_1_rt",
+                    "relation": "re_grudge_tx",
                     "upgrade": {}
                 }
             ]
