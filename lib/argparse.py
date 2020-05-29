@@ -15,6 +15,8 @@ parser.add_argument(
     "-v", "--verbose", help="verbose, will print all actions done", action="store_true")
 parser.add_argument(
     "-S", "--self", help="import to localhost as URI instead of atlas shard cluster", action="store_true")
+parser.add_argument(
+    "-A", "--atlas", help="import to atlas shard cluster instead of localhost", action="store_true")
 
 args = parser.parse_args()
 

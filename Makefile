@@ -10,6 +10,9 @@ start:
 startself:
 	python main.py --verbose --self
 
+startatlas:
+	python main.py --verbose --atlas
+
 build:
 	python main.py --buildonly
 
@@ -18,6 +21,9 @@ import:
 
 importself:
 	python main.py --importonly --self
+
+importatlas:
+	python main.py --importonly --atlas
 
 test:
 	python main.py --dryrun --verbose

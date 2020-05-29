@@ -66,6 +66,8 @@ def get_translation(customLangData):
             return 'MISSING_TRANSLATION_VALUE('+translationKey+')'
 
         translation = COLOR_TAG_RE.sub("", translation)
+        translation = LINEBREAK_RE.sub("\n", translation)
+
         return translation
     return translate
 
@@ -130,10 +132,17 @@ def update_mongo(collection, filePath):
     mPrint(
         "** Updating MONGODB => collection \"{0}\" with file {1} **\n".format(collection, filePath))
 
-    if PARSED_ARGS.self:
+    if PARSED_ARGS.self or PARSED_ARGS.atlas:
+        if PARSED_ARGS.self:
+            subprocess.call(MONGOIMPORT_SELF_CMD.format(
+                collection, filePath), shell=True)
+
+        if PARSED_ARGS.atlas:
+            subprocess.call(MONGOIMPORT_ATLAS_CMD.format(
+                collection, filePath), shell=True)
+    else:
         subprocess.call(MONGOIMPORT_SELF_CMD.format(
             collection, filePath), shell=True)
-    else:
         subprocess.call(MONGOIMPORT_ATLAS_CMD.format(
             collection, filePath), shell=True)
 

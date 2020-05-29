@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-/dist_py
+/dist_py/*
 /build
 .sass-cache
 package-lock.json
