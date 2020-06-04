@@ -16,16 +16,21 @@ SRC_FOLDER_FILES_RE = re.compile(r"(.*\/src\/)(.*)", re.IGNORECASE)
 JSON_FILES_RE = re.compile(r"(.*\/)(.*)(\.json)", re.IGNORECASE)
 LINEBREAK_RE = re.compile(r"\\n", re.IGNORECASE)
 
-BASE_PATH = os.getcwd()
-BUILD_FOLDER_NAME = "dist_py"
-BUILD_FOLDER = BASE_PATH+"/"+BUILD_FOLDER_NAME
 TRANSLATION_FOLDERS = ['materials', 'buffs', 'ex_equip', 'hero', 'artifact']
 
-text_en = json.load(open(BASE_PATH+'/src/text/text_en.json'))
-lang_files = sorted(glob.glob(BASE_PATH + "/src/text/*.json"))
+BASE_PATH = os.getcwd()
+
+SRC_FOLDER_NAME = "src"
+SRC_FOLDER = BASE_PATH+"/"+SRC_FOLDER_NAME
+
+BUILD_FOLDER_NAME = "dist_py"
+BUILD_FOLDER = BASE_PATH+"/"+BUILD_FOLDER_NAME
 
 COLLECTIONS_FOLDER_NAME = '_collections'
 COLLECTIONS_FOLDER = BUILD_FOLDER+"/"+COLLECTIONS_FOLDER_NAME
+
+with open(SRC_FOLDER+'/text/text_en.json', 'r') as _file:
+    text_en = json.load(_file)
 
 MONGOIMPORT_ATLAS_CMD = "mongoimport --host $E7DB_ATLAS_SHARDS --ssl --username $E7DB_ATLAS_USER --password \"$E7DB_ATLAS_PW\" --authenticationDatabase $E7DB_ATLAS_AUTH_DB --db $E7DB_ATLAS_DB --collection {0} --type json --file {1} --jsonArray --drop;"
 

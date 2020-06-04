@@ -7,9 +7,14 @@ import copy
 import subprocess
 from benedict import benedict
 from tqdm import tqdm
+import opencc
 
 from lib.variables import *
 from lib.parsers import get_data_parser
+
+
+def langFiles():
+    return sorted(glob.glob(BASE_PATH + "/src/text/*.json"))
 
 
 def mPrint(*argv):
@@ -40,7 +45,7 @@ def saveFile(filename, path, contents):
 
     filepath = path + "/{0}.json".format(filename)
     with open(filepath, 'w') as f:
-        json.dump(contents, f)
+        json.dump(contents, f, indent=4)
 
 
 def get_translation(customLangData):
@@ -77,6 +82,7 @@ def get_folder_files(srcFolder):
 
 
 def translate_folder(srcFolder):
+    lang_files = langFiles()
     foldername = SRC_FOLDER_FILES_RE.sub(r"\2", srcFolder)
     fileParser = get_data_parser(foldername)
     printline()
@@ -89,13 +95,15 @@ def translate_folder(srcFolder):
 
     for file in folder_files:
         filename = JSON_FILES_RE.sub(r"\2", file)
-        file_data = json.load(open(file))
+        with open(file, 'r') as _file_data:
+            file_data = json.load(_file_data)
         file_keys = file_data.keys()
         if "_id" not in file_keys:
             file_data["_id"] = filename
 
         for lang in lang_files:
-            currentLanguageData = json.load(open(lang))
+            with open(lang, 'r') as _lang_file:
+                currentLanguageData = json.load(_lang_file)
             get_translation_specific = get_translation(currentLanguageData)
             lang_key = getLangKey(lang)
             lang_folder = foldername+'-'+lang_key
@@ -120,7 +128,8 @@ def mount_collection_array(folderName):
     collection = []
 
     for file in folder_files:
-        data = json.load(open(file))
+        with open(file, 'r') as _file:
+            data = json.load(_file)
         collection.append(data)
 
     saveFile(folderName, COLLECTIONS_FOLDER, collection)
@@ -148,3 +157,15 @@ def update_mongo(collection, filePath):
 
     mPrint(
         "\n** MONGODB => collection \"{0}\" updated **\n\n".format(collection))
+
+
+def convertChineseTraditionalToSimplified():
+    converter = opencc.OpenCC('t2s.json')
+
+    with open(BASE_PATH+'/src/text/text_zht.json', 'r') as file:
+        text_zht = file.read()  # .replace('\n', '')
+
+    text_zhs = converter.convert(text_zht)
+    zhs = json.loads(text_zhs)
+
+    saveFile('text_zhs', '{0}/text'.format(SRC_FOLDER), zhs)

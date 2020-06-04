@@ -18,7 +18,10 @@ def do_translate():
     except:
         pass
 
+    convertChineseTraditionalToSimplified()
+
     languages = []
+    lang_files = langFiles()
     for lang_file in lang_files:
         languages.append(getLangKey(lang_file))
 
@@ -31,6 +34,12 @@ def do_translate():
     printline()
     mPrint('Done creating translated files at '+BUILD_FOLDER_NAME)
     printline()
+
+    # cleanup convertChineseTraditionalToSimplified hack
+    try:
+        os.remove(BASE_PATH+'/src/text/text_zhs.json')
+    except:
+        pass
 
 
 def do_build():
