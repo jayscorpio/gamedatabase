@@ -398,14 +398,16 @@
             "can_enhance": false,
             "description": "sk_c2065_2_de",
             "values": [
-                0.15
+                0.2
             ],
             "passive": true,
             "cooldown": 0,
             "soul_gain": 0,
             "pow": 1,
             "att_rate": 0,
-            "buff": [],
+            "buff": [
+                15
+            ],
             "debuff": [],
             "common": [],
             "enhancements": [
@@ -497,13 +499,14 @@
                 0.6
             ],
             "passive": false,
-            "cooldown": 5,
+            "cooldown": 4,
             "soul_gain": 2,
             "pow": 1.05,
             "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                29
+                29,
+                28
             ],
             "common": [],
             "soul_description": "sk_c2065_3s_de",

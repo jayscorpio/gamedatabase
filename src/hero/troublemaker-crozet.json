@@ -48,6 +48,13 @@
                     "description": "chre_c2036_4_rt",
                     "relation": "re_love_tx",
                     "upgrade": {}
+                },
+                {
+                    "id": "c3026",
+                    "slot": 5,
+                    "description": "chre_c2036_5_rt",
+                    "relation": "re_grudge_tx",
+                    "upgrade": {}
                 }
             ]
         }

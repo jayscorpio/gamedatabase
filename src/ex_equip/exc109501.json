@@ -27,7 +27,7 @@
         {
             "skill": 3,
             "description": "ek_c109501_03_de",
-            "skill_description": "ek_c109501_03sk_de",
+            "skill_description": null,
             "values": [
                 52,
                 46

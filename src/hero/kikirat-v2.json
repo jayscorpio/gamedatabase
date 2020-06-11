@@ -2,7 +2,7 @@
     "_id": "kikirat-v2",
     "id": "c3084",
     "name": "chrn_c3084",
-    "moonlight": false,
+    "moonlight": true,
     "rarity": 3,
     "attribute": "light",
     "role": "knight",
