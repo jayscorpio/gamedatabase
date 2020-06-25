@@ -41,6 +41,25 @@
                     "description": "chre_c1095_3_rt",
                     "relation": "re_rival_tx",
                     "upgrade": {}
+                },
+                {
+                    "id": "c1082",
+                    "slot": 4,
+                    "description": "chre_c1095_4_rt",
+                    "relation": "re_grudge_tx",
+                    "upgrade": {
+                        "id": "c1082",
+                        "slot": 4,
+                        "description": "chre_c1095_4_1_rt",
+                        "relation": "re_trust_tx"
+                    }
+                },
+                {
+                    "id": "c1082",
+                    "slot": 4,
+                    "description": "chre_c1095_4_1_rt",
+                    "relation": "re_trust_tx",
+                    "upgrade": {}
                 }
             ]
         }
