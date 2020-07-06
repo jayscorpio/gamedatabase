@@ -7,7 +7,6 @@ import copy
 import subprocess
 from benedict import benedict
 from tqdm import tqdm
-import opencc
 
 from lib.variables import *
 from lib.parsers import get_data_parser
@@ -160,6 +159,7 @@ def update_mongo(collection, filePath):
 
 
 def convertChineseTraditionalToSimplified():
+    import opencc
     converter = opencc.OpenCC('t2s.json')
 
     with open(BASE_PATH+'/src/text/text_zht.json', 'r') as file:
