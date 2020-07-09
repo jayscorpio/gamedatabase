@@ -1,0 +1,38 @@
+{
+    "_id": "exc101901",
+    "id": "exc101901",
+    "name": "exc101901_name",
+    "description": "exc101901_desc",
+    "unit": "c1019",
+    "role": "warrior",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c1019",
+    "stat": {
+        "type": "att_rate",
+        "value": 0.07
+    },
+    "skills": [
+        {
+            "skill": 1,
+            "description": "ek_c101901_01_de",
+            "skill_description": "ek_c101901_01sk_de",
+            "values": []
+        },
+        {
+            "skill": 1,
+            "description": "ek_c101901_02_de",
+            "skill_description": "ek_c101901_02sk_de",
+            "values": [
+                31
+            ]
+        },
+        {
+            "skill": 3,
+            "description": "ek_c101901_03_de",
+            "skill_description": "ek_c101901_03sk_de",
+            "values": [
+                20
+            ]
+        }
+    ]
+}

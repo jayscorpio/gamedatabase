@@ -1,0 +1,41 @@
+{
+    "_id": "exc107301",
+    "id": "exc107301",
+    "name": "exc107301_name",
+    "description": "exc107301_desc",
+    "unit": "c1073",
+    "role": "mage",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c1073",
+    "stat": {
+        "type": "cri",
+        "value": 0.06
+    },
+    "skills": [
+        {
+            "skill": 2,
+            "description": "ek_c107301_01_de",
+            "skill_description": "ek_c107301_01sk_de",
+            "values": [
+                1,
+                3
+            ]
+        },
+        {
+            "skill": 3,
+            "description": "ek_c107301_02_de",
+            "skill_description": "ek_c107301_02sk_de",
+            "values": [
+                22,
+                3,
+                34
+            ]
+        },
+        {
+            "skill": 3,
+            "description": "ek_c107301_03_de",
+            "skill_description": null,
+            "values": []
+        }
+    ]
+}

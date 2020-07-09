@@ -1,0 +1,8 @@
+{
+    "_id": "m9052bubble",
+    "id": "m9052_bubble",
+    "icon": "stic_bubble",
+    "type": "buff",
+    "name": "m9052_bubble_skeffnm",
+    "effect": "m9052_bubble_de"
+}

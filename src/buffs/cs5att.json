@@ -1,0 +1,8 @@
+{
+    "_id": "cs5att",
+    "id": "cs5_att",
+    "icon": "stic_att_inc_aura",
+    "type": "common",
+    "name": "cs5_att_skeffnm",
+    "effect": "cs5_att_de"
+}
