@@ -1,0 +1,66 @@
+{
+    "identifier": "efw18",
+    "name": "efw18_name",
+    "rarity": 5,
+    "role": "warrior",
+    "limited": false,
+    "description": "efw18_desc",
+    "assets": {
+        "icon": "icon_art0098",
+        "image": "art0098_fu",
+        "thumbnail": "art0098_l"
+    },
+    "stats": {
+        "attack": 21,
+        "health": 32
+    },
+    "skill": {
+        "description": "sk_efw18_de",
+        "enhancements": [
+            [
+                0.15,
+                0.13
+            ],
+            [
+                0.165,
+                0.143
+            ],
+            [
+                0.18,
+                0.156
+            ],
+            [
+                0.195,
+                0.169
+            ],
+            [
+                0.21,
+                0.182
+            ],
+            [
+                0.225,
+                0.195
+            ],
+            [
+                0.24,
+                0.208
+            ],
+            [
+                0.255,
+                0.221
+            ],
+            [
+                0.27,
+                0.234
+            ],
+            [
+                0.285,
+                0.247
+            ],
+            [
+                0.3,
+                0.26
+            ]
+        ]
+    }
+}
