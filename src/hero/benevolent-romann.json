@@ -316,10 +316,6 @@
                 28
             ],
             "common": [],
-            "soul_description": "sk_c2043_1s_de",
-            "soul_requirement": 20,
-            "soul_pow": 0.9,
-            "soul_att_rate": 0.8,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -389,8 +385,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_demont_es",
@@ -485,8 +481,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_demont_es",
@@ -514,6 +510,10 @@
                 28
             ],
             "common": [],
+            "soul_description": "sk_c2043_3s_de",
+            "soul_requirement": 20,
+            "soul_pow": 1.1,
+            "soul_att_rate": 0.9,
             "enhanced_description": "sk_c2043_3u_de",
             "enhancements": [
                 {
@@ -584,8 +584,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_demont_es",

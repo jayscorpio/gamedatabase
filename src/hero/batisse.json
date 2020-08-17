@@ -316,7 +316,7 @@
             "soul_att_rate": 0.8,
             "enhancements": [
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_dmg5_c3095",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -329,7 +329,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_dmg5_c3095",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -342,7 +342,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_dmg5_c3095",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -359,7 +359,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg10",
+                    "string": "sklv_de_dmg10_c3095",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -376,7 +376,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg10",
+                    "string": "sklv_de_dmg10_c3095",
                     "costs": [
                         {
                             "item": "to_gold",

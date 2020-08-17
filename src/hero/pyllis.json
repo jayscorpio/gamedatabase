@@ -543,7 +543,9 @@
             "buff": [
                 5
             ],
-            "debuff": [],
+            "debuff": [
+                25
+            ],
             "common": [],
             "soul_description": "sk_c3005_3s_de",
             "soul_requirement": 10,

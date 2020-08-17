@@ -373,8 +373,8 @@
                             "count": 110000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_chimaera_es",
@@ -391,7 +391,7 @@
             "description": "sk_c1015_2_de",
             "values": [],
             "passive": false,
-            "cooldown": 4,
+            "cooldown": 3,
             "soul_gain": 2,
             "pow": 0.9,
             "att_rate": 1.1,
@@ -471,8 +471,8 @@
                             "count": 45000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_taranor_es",
@@ -488,8 +488,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_chimaera_es",
@@ -589,8 +589,8 @@
                             "count": 45000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_taranor_es",
@@ -606,8 +606,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_chimaera_es",

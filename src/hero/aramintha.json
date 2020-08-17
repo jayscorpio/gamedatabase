@@ -415,8 +415,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_chimaera_es",
@@ -436,13 +436,12 @@
             "cooldown": 4,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 0.7,
+            "att_rate": 0.9,
             "buff": [
                 1
             ],
             "debuff": [
-                27,
-                31
+                27
             ],
             "common": [],
             "enhancements": [
@@ -501,8 +500,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_chimaera_es",
@@ -525,7 +524,7 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 0.85,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [
                 31,
@@ -535,7 +534,7 @@
             "soul_description": "sk_c1048_3s_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 0.85,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -618,8 +617,8 @@
                             "count": 55000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_taranor_es",
@@ -635,8 +634,8 @@
                             "count": 110000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_chimaera_es",

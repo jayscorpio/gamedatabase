@@ -311,7 +311,7 @@
             "common": [],
             "enhancements": [
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_dmg5_c2047",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -324,7 +324,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_dmg5_c2047",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -354,7 +354,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg10",
+                    "string": "sklv_de_dmg10_c2047",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -378,8 +378,8 @@
                             "count": 45000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_demon_es",
@@ -388,15 +388,15 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg15",
+                    "string": "sklv_de_dmg15_c2047",
                     "costs": [
                         {
                             "item": "to_gold",
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_queen_es",
@@ -463,8 +463,8 @@
                             "count": 110000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_queen_es",
@@ -568,8 +568,8 @@
                             "count": 45000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_demon_es",
@@ -585,8 +585,8 @@
                             "count": 80000
                         },
                         {
-                            "item": "ma_moragora2",
-                            "count": 1
+                            "item": "ma_moragora1",
+                            "count": 4
                         },
                         {
                             "item": "ma_queen_es",

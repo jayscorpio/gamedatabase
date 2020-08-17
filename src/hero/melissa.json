@@ -309,10 +309,6 @@
                 27
             ],
             "common": [],
-            "soul_description": "sk_c1096_1s_de",
-            "soul_requirement": 10,
-            "soul_pow": 1.1,
-            "soul_att_rate": 1.5,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -507,6 +503,10 @@
             "common": [
                 35
             ],
+            "soul_description": "sk_c1096_3s_de",
+            "soul_requirement": 20,
+            "soul_pow": 1,
+            "soul_att_rate": 1.2,
             "enhanced_description": "sk_c1096_3u_de",
             "enhancements": [
                 {
