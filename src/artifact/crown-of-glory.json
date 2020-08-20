@@ -1,0 +1,55 @@
+{
+    "identifier": "efk13",
+    "name": "efk13_name",
+    "rarity": 5,
+    "role": "knight",
+    "limited": false,
+    "description": "efk13_desc",
+    "assets": {
+        "icon": "icon_art0103",
+        "image": "art0103_fu",
+        "thumbnail": "art0103_l"
+    },
+    "stats": {
+        "attack": 9,
+        "health": 76
+    },
+    "skill": {
+        "description": "sk_efk13_de",
+        "enhancements": [
+            [
+                0.08
+            ],
+            [
+                0.088
+            ],
+            [
+                0.096
+            ],
+            [
+                0.104
+            ],
+            [
+                0.112
+            ],
+            [
+                0.12
+            ],
+            [
+                0.128
+            ],
+            [
+                0.136
+            ],
+            [
+                0.144
+            ],
+            [
+                0.152
+            ],
+            [
+                0.16
+            ]
+        ]
+    }
+}
