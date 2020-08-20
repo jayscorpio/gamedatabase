@@ -158,14 +158,14 @@ def update_mongo(collection, filePath):
         "\n** MONGODB => collection \"{0}\" updated **\n\n".format(collection))
 
 
-def convertChineseTraditionalToSimplified():
-    import opencc
-    converter = opencc.OpenCC('t2s.json')
+# def convertChineseTraditionalToSimplified():
+#     import opencc
+#     converter = opencc.OpenCC('t2s.json')
 
-    with open(BASE_PATH+'/src/text/text_zht.json', 'r') as file:
-        text_zht = file.read()  # .replace('\n', '')
+#     with open(BASE_PATH+'/src/text/text_zht.json', 'r') as file:
+#         text_zht = file.read()  # .replace('\n', '')
 
-    text_zhs = converter.convert(text_zht)
-    zhs = json.loads(text_zhs)
+#     text_zhs = converter.convert(text_zht)
+#     zhs = json.loads(text_zhs)
 
-    saveFile('text_zhs', '{0}/text'.format(SRC_FOLDER), zhs)
+#     saveFile('text_zhs', '{0}/text'.format(SRC_FOLDER), zhs)

@@ -19,8 +19,8 @@ def do_translate():
         pass
 
     # travis doesn't have GLIBC2.9 so it breaks
-    if not PARSED_ARGS.dryrun:
-        convertChineseTraditionalToSimplified()
+    # if not PARSED_ARGS.dryrun:
+    #     convertChineseTraditionalToSimplified()
 
     languages = []
     lang_files = langFiles()
