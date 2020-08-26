@@ -38,10 +38,10 @@ def do_translate():
     printline()
 
     # cleanup convertChineseTraditionalToSimplified hack
-    try:
-        os.remove(BASE_PATH+'/src/text/text_zhs.json')
-    except:
-        pass
+    # try:
+    #     os.remove(BASE_PATH+'/src/text/text_zhs.json')
+    # except:
+    #     pass
 
 
 def do_build():

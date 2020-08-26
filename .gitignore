@@ -3,7 +3,6 @@ node_modules
 /dist
 /dist_py/*
 /build
-/src/text/text_zhs.json
 .sass-cache
 package-lock.json
 __pycache__
