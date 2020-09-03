@@ -1,0 +1,34 @@
+{
+    "_id": "exc105401",
+    "id": "exc105401",
+    "name": "exc105401_name",
+    "description": "exc105401_desc",
+    "unit": "c1054",
+    "role": "manauser",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c1054",
+    "stat": {
+        "type": "acc",
+        "value": 0.08
+    },
+    "skills": [
+        {
+            "skill": 2,
+            "description": "ek_c105401_01_de",
+            "skill_description": "ek_c105401_01sk_de",
+            "values": []
+        },
+        {
+            "skill": 3,
+            "description": "ek_c105401_02_de",
+            "skill_description": null,
+            "values": []
+        },
+        {
+            "skill": 3,
+            "description": "ek_c105401_03_de",
+            "skill_description": "ek_c105401_03sk_de",
+            "values": []
+        }
+    ]
+}

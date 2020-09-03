@@ -1,0 +1,37 @@
+{
+    "_id": "exc100201",
+    "id": "exc100201",
+    "name": "exc100201_name",
+    "description": "exc100201_desc",
+    "unit": "c1002",
+    "role": "knight",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c1002",
+    "stat": {
+        "type": "acc",
+        "value": 0.08
+    },
+    "skills": [
+        {
+            "skill": 1,
+            "description": "ek_c100201_01_de",
+            "skill_description": null,
+            "values": []
+        },
+        {
+            "skill": 2,
+            "description": "ek_c100201_02_de",
+            "skill_description": "ek_c100201_02sk_de",
+            "values": []
+        },
+        {
+            "skill": 2,
+            "description": "ek_c100201_03_de",
+            "skill_description": "ek_c100201_03sk_de",
+            "values": [
+                17,
+                27
+            ]
+        }
+    ]
+}

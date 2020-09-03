@@ -1,0 +1,21 @@
+{
+    "identifier": "ef414",
+    "name": "ef414_name",
+    "rarity": 4,
+    "role": "",
+    "limited": true,
+    "description": "ef414_desc",
+    "assets": {
+        "icon": "icon_art0110",
+        "image": "art0110_fu",
+        "thumbnail": "art0110_l"
+    },
+    "stats": {
+        "attack": 13,
+        "health": 48
+    },
+    "skill": {
+        "description": "sk_ef414_de",
+        "enhancements": []
+    }
+}
