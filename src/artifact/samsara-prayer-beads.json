@@ -1,0 +1,55 @@
+{
+    "identifier": "efw20",
+    "name": "efw20_name",
+    "rarity": 5,
+    "role": "warrior",
+    "limited": false,
+    "description": "efw20_desc",
+    "assets": {
+        "icon": "icon_art0104",
+        "image": "art0104_fu",
+        "thumbnail": "art0104_l"
+    },
+    "stats": {
+        "attack": 9,
+        "health": 76
+    },
+    "skill": {
+        "description": "sk_efw20_de",
+        "enhancements": [
+            [
+                0.2
+            ],
+            [
+                0.22
+            ],
+            [
+                0.24
+            ],
+            [
+                0.26
+            ],
+            [
+                0.28
+            ],
+            [
+                0.3
+            ],
+            [
+                0.32
+            ],
+            [
+                0.34
+            ],
+            [
+                0.36
+            ],
+            [
+                0.38
+            ],
+            [
+                0.4
+            ]
+        ]
+    }
+}
