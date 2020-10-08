@@ -1,0 +1,8 @@
+{
+    "_id": "aby102healaura",
+    "id": "aby102_healaura",
+    "icon": "stic_heal_keep",
+    "type": "buff",
+    "name": "aby102_healaura_skeffnm",
+    "effect": "aby102_healaura_de"
+}

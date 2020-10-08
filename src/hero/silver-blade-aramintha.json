@@ -513,11 +513,12 @@
             ],
             "passive": false,
             "cooldown": 5,
-            "soul_gain": 2,
+            "soul_gain": 3,
             "pow": 1,
             "att_rate": 0.9,
             "buff": [],
             "debuff": [
+                27,
                 31,
                 20
             ],

@@ -422,14 +422,14 @@
             "cooldown": 4,
             "soul_gain": 2,
             "pow": 0.9,
-            "att_rate": 0.85,
+            "att_rate": 1.0,
             "buff": [],
             "debuff": [],
             "common": [],
             "soul_description": "sk_c3064_2s_de",
             "soul_requirement": 10,
             "soul_pow": 0.9,
-            "soul_att_rate": 1.1,
+            "soul_att_rate": 1.25,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",

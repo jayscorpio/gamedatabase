@@ -1,45 +1,30 @@
 {
-    "_id": "ken",
-    "id": "c1047",
-    "name": "chrn_c1047",
-    "moonlight": false,
+    "_id": "top-model-luluca",
+    "id": "c2082",
+    "name": "chrn_c2082",
+    "moonlight": true,
     "rarity": 5,
-    "attribute": "fire",
-    "role": "warrior",
-    "zodiac": "goat",
-    "description": "c1047_2line",
-    "story": "c1047_de_story",
-    "get_line": "c1047_gacha_get",
+    "attribute": "dark",
+    "role": "mage",
+    "zodiac": "archer",
+    "description": "c2082_2line",
+    "story": "c2082_de_story",
+    "get_line": "c2082_gacha_get",
     "stats": {
-        "bra": 90,
-        "int": 109,
-        "fai": 77,
-        "des": 68
+        "bra": 109,
+        "int": 62,
+        "fai": 89,
+        "des": 82
     },
     "relationships": [
         {
             "name": null,
             "description": null,
-            "relations": [
-                {
-                    "id": "c1013",
-                    "slot": 1,
-                    "description": "chre_c1047_1_rt",
-                    "relation": "re_trust_tx",
-                    "upgrade": {}
-                },
-                {
-                    "id": "c3015",
-                    "slot": 2,
-                    "description": "chre_c1047_2_rt",
-                    "relation": "re_trust_tx",
-                    "upgrade": {}
-                }
-            ]
+            "relations": []
         }
     ],
     "self_devotion": {
-        "type": "max_hp_rate",
+        "type": "att_rate",
         "grades": {
             "B": 0.06,
             "A": 0.09,
@@ -49,7 +34,7 @@
         }
     },
     "devotion": {
-        "type": "max_hp_rate",
+        "type": "att_rate",
         "grades": {
             "B": 0.043,
             "A": 0.065,
@@ -60,19 +45,19 @@
         "slots": {
             "1": false,
             "2": true,
-            "3": false,
-            "4": true
+            "3": true,
+            "4": false
         }
     },
     "specialty": {
-        "name": "sms_c1047_nm",
-        "description": "sms_c1047_de",
+        "name": "sms_c2082_nm",
+        "description": "sms_c2082_de",
         "icon": "smc_enemy_2",
         "effect_type": "reward_bonus",
         "effect_value": 0.1,
-        "command": 32,
-        "charm": 22,
-        "politics": 15,
+        "command": 15,
+        "charm": 98,
+        "politics": 36,
         "type": {
             "name": "smc_enemy_nm",
             "description": "smc_enemy_de"
@@ -80,36 +65,36 @@
     },
     "camping": {
         "personalities": [
-            "c_pers_8_heroic",
+            "c_pers_5_pride",
             "c_pers_27_extrovert"
         ],
         "topics": [
-            "c_topic_18_dream",
-            "c_topic_15_foodsto"
+            "c_topic_15_foodsto",
+            "c_topic_6_herocheer"
         ],
         "values": {
-            "c_topic_1_criticism": -5,
+            "c_topic_1_criticism": 5,
             "c_topic_2_realistic": -3,
-            "c_topic_3_taleheroic": 6,
+            "c_topic_3_taleheroic": 8,
             "c_topic_4_cheeringup": 6,
-            "c_topic_5_charmcheer": 4,
-            "c_topic_6_herocheer": 6,
-            "c_topic_7_sadmemo": 1,
-            "c_topic_8_enjoymemo": 6,
-            "c_topic_9_happymemo": 5,
-            "c_topic_10_unique": 2,
-            "c_topic_11_narcissis": 1,
-            "c_topic_12_occult": 1,
-            "c_topic_13_myth": 4,
-            "c_topic_14_gagsto": 0,
-            "c_topic_15_foodsto": 3,
-            "c_topic_16_horrorsto": 5,
-            "c_topic_17_gossip": 0,
-            "c_topic_18_dream": 4,
-            "c_topic_19_advice": 4,
-            "c_topic_20_moaning": -3,
-            "c_topic_22_belief": 0,
-            "c_topic_25_adventure": 3
+            "c_topic_5_charmcheer": 7,
+            "c_topic_6_herocheer": 0,
+            "c_topic_7_sadmemo": -2,
+            "c_topic_8_enjoymemo": 3,
+            "c_topic_9_happymemo": 4,
+            "c_topic_10_unique": 0,
+            "c_topic_11_narcissis": -1,
+            "c_topic_12_occult": 4,
+            "c_topic_13_myth": 6,
+            "c_topic_14_gagsto": -1,
+            "c_topic_15_foodsto": 4,
+            "c_topic_16_horrorsto": 1,
+            "c_topic_17_gossip": 1,
+            "c_topic_18_dream": 2,
+            "c_topic_19_advice": 5,
+            "c_topic_20_moaning": -2,
+            "c_topic_22_belief": -2,
+            "c_topic_25_adventure": 1
         }
     },
     "zodiac_tree": [
@@ -119,13 +104,13 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runefire1",
+                    "item": "ma_runedark1",
                     "count": 10
                 }
             ],
             "stats": [
                 {
-                    "stat": "max_hp_rate",
+                    "stat": "att_rate",
                     "value": 0.03,
                     "type": "sub"
                 },
@@ -147,18 +132,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runefire1",
+                    "item": "ma_runedark1",
                     "count": 15
                 },
                 {
-                    "item": "ma_runefire2",
+                    "item": "ma_runedark2",
                     "count": 2
                 }
             ],
             "stats": [
                 {
-                    "stat": "max_hp_rate",
-                    "value": 0.03,
+                    "stat": "cri",
+                    "value": 0.04,
                     "type": "sub"
                 },
                 {
@@ -176,14 +161,14 @@
         {
             "name": "zs_02_nm",
             "description": "zs_02_de",
-            "skill_enhanced": 3,
+            "skill_enhanced": 2,
             "costs": [
                 {
-                    "item": "ma_runefire1",
+                    "item": "ma_runedark1",
                     "count": 20
                 },
                 {
-                    "item": "ma_runefire2",
+                    "item": "ma_runedark2",
                     "count": 10
                 }
             ],
@@ -206,18 +191,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runefire2",
+                    "item": "ma_runedark2",
                     "count": 10
                 },
                 {
-                    "item": "ma_runefire3",
+                    "item": "ma_runedark3",
                     "count": 2
                 }
             ],
             "stats": [
                 {
-                    "stat": "def_rate",
-                    "value": 0.06,
+                    "stat": "speed",
+                    "value": 4.0,
                     "type": "sub"
                 },
                 {
@@ -238,17 +223,17 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runefire3",
+                    "item": "ma_runedark3",
                     "count": 6
                 },
                 {
-                    "item": "ma_candle_es",
+                    "item": "ma_demonr_es",
                     "count": 15
                 }
             ],
             "stats": [
                 {
-                    "stat": "max_hp_rate",
+                    "stat": "att_rate",
                     "value": 0.06,
                     "type": "sub"
                 },
@@ -270,18 +255,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runefire3",
+                    "item": "ma_runedark3",
                     "count": 10
                 },
                 {
-                    "item": "ma_wyvern_es",
+                    "item": "ma_hired_es",
                     "count": 10
                 }
             ],
             "stats": [
                 {
-                    "stat": "max_hp_rate",
-                    "value": 0.06,
+                    "stat": "cri",
+                    "value": 0.08,
                     "type": "sub"
                 },
                 {
@@ -299,24 +284,23 @@
     ],
     "skills": [
         {
-            "name": "sk_c1047_1_sknm",
-            "icon": "sk_c1047_1",
+            "name": "sk_c2082_1_sknm",
+            "icon": "sk_c2082_1",
             "can_enhance": false,
-            "description": "sk_c1047_1_new_de",
+            "description": "sk_c2082_1_de",
             "values": [],
             "passive": false,
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 0.5,
-            "buff": [
-                41
-            ],
-            "debuff": [
-                18,
-                31
-            ],
+            "att_rate": 1.0,
+            "buff": [],
+            "debuff": [],
             "common": [],
+            "soul_description": "sk_c2082_1s_de",
+            "soul_requirement": 10,
+            "soul_pow": 1,
+            "soul_att_rate": 1.0,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -345,53 +329,36 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_bp5",
+                    "string": "sklv_de_dmg5",
                     "costs": [
                         {
                             "item": "to_gold",
-                            "count": 14000
+                            "count": 29000
                         },
                         {
                             "item": "ma_moragora1",
                             "count": 1
                         },
                         {
-                            "item": "ma_slime_es",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "string": "sklv_de_dmg5",
-                    "costs": [
-                        {
-                            "item": "to_gold",
-                            "count": 28000
-                        },
-                        {
-                            "item": "ma_moragora1",
-                            "count": 2
-                        },
-                        {
-                            "item": "ma_slime_es",
-                            "count": 4
-                        }
-                    ]
-                },
-                {
-                    "string": "sklv_de_dmg5",
-                    "costs": [
-                        {
-                            "item": "to_gold",
-                            "count": 45000
-                        },
-                        {
-                            "item": "ma_moragora1",
-                            "count": 4
-                        },
-                        {
-                            "item": "ma_slime_es",
+                            "item": "ma_bowman_es",
                             "count": 5
+                        }
+                    ]
+                },
+                {
+                    "string": "sklv_de_dmg5",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 47000
+                        },
+                        {
+                            "item": "ma_moragora1",
+                            "count": 3
+                        },
+                        {
+                            "item": "ma_bowman_es",
+                            "count": 7
                         }
                     ]
                 },
@@ -404,10 +371,10 @@
                         },
                         {
                             "item": "ma_moragora1",
-                            "count": 4
+                            "count": 5
                         },
                         {
-                            "item": "ma_wyvern_es",
+                            "item": "ma_hired_es",
                             "count": 2
                         }
                     ]
@@ -415,104 +382,124 @@
             ]
         },
         {
-            "name": "sk_c1047_2_sknm",
-            "icon": "sk_c1047_2",
-            "can_enhance": false,
-            "description": "sk_c1047_2_de",
-            "values": [],
+            "name": "sk_c2082_2_sknm",
+            "icon": "sk_c2082_2",
+            "can_enhance": true,
+            "description": "sk_c2082_2_de",
+            "values": [
+                0.1
+            ],
             "passive": false,
-            "cooldown": 3,
+            "cooldown": 5,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1.2,
+            "att_rate": 0,
             "buff": [
-                3,
-                41
+                1
             ],
-            "debuff": [
-                18
-            ],
+            "debuff": [],
             "common": [
                 35
             ],
-            "soul_description": "sk_c1047_2s_de",
-            "soul_requirement": 20,
-            "soul_pow": 1,
-            "soul_att_rate": 1.2,
+            "enhanced_description": "sk_c2082_2u_de",
             "enhancements": [
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_ab1",
                     "costs": [
                         {
                             "item": "to_gold",
-                            "count": 19000
+                            "count": 4000
+                        },
+                        {
+                            "item": "ma_moragora1",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "string": "sklv_de_ab1",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 4000
+                        },
+                        {
+                            "item": "ma_moragora1",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "string": "sklv_de_cd1",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 29000
                         },
                         {
                             "item": "ma_moragora1",
                             "count": 1
                         },
                         {
-                            "item": "ma_slime_es",
-                            "count": 3
-                        }
-                    ]
-                },
-                {
-                    "string": "sklv_de_dmg10",
-                    "costs": [
-                        {
-                            "item": "to_gold",
-                            "count": 33000
-                        },
-                        {
-                            "item": "ma_moragora1",
-                            "count": 2
-                        },
-                        {
-                            "item": "ma_slime_es",
+                            "item": "ma_bowman_es",
                             "count": 5
                         }
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg15",
+                    "string": "sklv_de_ab1",
                     "costs": [
                         {
                             "item": "to_gold",
-                            "count": 110000
+                            "count": 47000
                         },
                         {
                             "item": "ma_moragora1",
-                            "count": 4
+                            "count": 3
                         },
                         {
-                            "item": "ma_wyvern_es",
-                            "count": 3
+                            "item": "ma_bowman_es",
+                            "count": 7
+                        }
+                    ]
+                },
+                {
+                    "string": "sklv_de_ab2",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 80000
+                        },
+                        {
+                            "item": "ma_moragora1",
+                            "count": 5
+                        },
+                        {
+                            "item": "ma_hired_es",
+                            "count": 2
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "sk_c1047_3_sknm",
-            "icon": "sk_c1047_3",
-            "can_enhance": true,
-            "description": "sk_c1047_3_de",
+            "name": "sk_c2082_3_sknm",
+            "icon": "sk_c2082_3",
+            "can_enhance": false,
+            "description": "sk_c2082_3_de",
             "values": [],
             "passive": false,
             "cooldown": 5,
-            "soul_gain": 3,
-            "pow": 0.9,
-            "att_rate": 1.5,
+            "soul_gain": 2,
+            "pow": 1,
+            "att_rate": 1.6,
             "buff": [
-                41
+                15
             ],
-            "debuff": [
-                20,
-                17
+            "debuff": [],
+            "common": [
+                52
             ],
-            "common": [],
-            "enhanced_description": "sk_c1047_3u_de",
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -545,32 +532,15 @@
                     "costs": [
                         {
                             "item": "to_gold",
-                            "count": 14000
+                            "count": 29000
                         },
                         {
                             "item": "ma_moragora1",
                             "count": 1
                         },
                         {
-                            "item": "ma_slime_es",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "string": "sklv_de_dmg5",
-                    "costs": [
-                        {
-                            "item": "to_gold",
-                            "count": 28000
-                        },
-                        {
-                            "item": "ma_moragora1",
-                            "count": 2
-                        },
-                        {
-                            "item": "ma_slime_es",
-                            "count": 4
+                            "item": "ma_bowman_es",
+                            "count": 5
                         }
                     ]
                 },
@@ -579,20 +549,20 @@
                     "costs": [
                         {
                             "item": "to_gold",
-                            "count": 45000
+                            "count": 47000
                         },
                         {
                             "item": "ma_moragora1",
-                            "count": 4
+                            "count": 3
                         },
                         {
-                            "item": "ma_slime_es",
-                            "count": 5
+                            "item": "ma_bowman_es",
+                            "count": 7
                         }
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg15",
+                    "string": "sklv_de_dmg10",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -600,10 +570,10 @@
                         },
                         {
                             "item": "ma_moragora1",
-                            "count": 4
+                            "count": 5
                         },
                         {
-                            "item": "ma_wyvern_es",
+                            "item": "ma_hired_es",
                             "count": 2
                         }
                     ]

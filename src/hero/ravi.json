@@ -303,7 +303,9 @@
             "pow": 1,
             "att_rate": 1.0,
             "buff": [],
-            "debuff": [],
+            "debuff": [
+                20
+            ],
             "common": [
                 33
             ],

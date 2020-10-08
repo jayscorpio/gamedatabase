@@ -1,0 +1,8 @@
+{
+    "_id": "aby105whitespell",
+    "id": "aby105_whitespell",
+    "icon": "stic_elemental_keep",
+    "type": "debuff",
+    "name": "aby105_whitespell_skeffnm",
+    "effect": "aby105_whitespell_de"
+}

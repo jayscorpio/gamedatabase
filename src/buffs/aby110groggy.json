@@ -1,0 +1,8 @@
+{
+    "_id": "aby110groggy",
+    "id": "aby110_groggy",
+    "icon": "stic_stun_keep",
+    "type": "debuff",
+    "name": "aby102_groggy_skeffnm",
+    "effect": "aby110_groggy_de"
+}

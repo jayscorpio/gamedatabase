@@ -409,6 +409,10 @@
                 18
             ],
             "common": [],
+            "soul_description": "sk_c2003_2s_de",
+            "soul_requirement": 10,
+            "soul_pow": 0.9,
+            "soul_att_rate": 1.5,
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -499,14 +503,12 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 0.8,
-            "att_rate": 0.8,
-            "buff": [],
+            "att_rate": 1.0,
+            "buff": [
+                60
+            ],
             "debuff": [],
             "common": [],
-            "soul_description": "sk_c2003_3s_de",
-            "soul_requirement": 10,
-            "soul_pow": 0.8,
-            "soul_att_rate": 1.05,
             "enhanced_description": "sk_c2003_3u_de",
             "enhancements": [
                 {
