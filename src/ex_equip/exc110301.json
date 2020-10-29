@@ -1,0 +1,36 @@
+{
+    "_id": "exc110301",
+    "id": "exc110301",
+    "name": "exc110301_name",
+    "description": "exc110301_desc",
+    "unit": "c1103",
+    "role": "assassin",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c1103",
+    "stat": {
+        "type": "cri",
+        "value": 0.06
+    },
+    "skills": [
+        {
+            "skill": 2,
+            "description": "ek_c110301_01_de",
+            "skill_description": "ek_c110301_01sk_de",
+            "values": [
+                15
+            ]
+        },
+        {
+            "skill": 2,
+            "description": "ek_c110301_02_de",
+            "skill_description": "ek_c110301_02sk_de",
+            "values": []
+        },
+        {
+            "skill": 3,
+            "description": "ek_c110301_03_de",
+            "skill_description": null,
+            "values": []
+        }
+    ]
+}
