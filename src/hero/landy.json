@@ -317,7 +317,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1.0,
+            "att_rate": 1.1,
             "buff": [],
             "debuff": [],
             "common": [],
@@ -407,7 +407,7 @@
             "can_enhance": false,
             "description": "sk_c1109_2_de",
             "values": [
-                0.07
+                0.15
             ],
             "passive": true,
             "cooldown": 0,
@@ -512,11 +512,13 @@
                 3
             ],
             "debuff": [],
-            "common": [],
+            "common": [
+                34
+            ],
             "soul_description": "sk_c1109_3s_de",
-            "soul_requirement": 10,
+            "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1.15,
+            "soul_att_rate": 0.9,
             "enhanced_description": "sk_c1109_3u_de",
             "enhancements": [
                 {

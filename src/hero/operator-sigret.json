@@ -1,20 +1,20 @@
 {
-    "_id": "last-rider-krau",
-    "id": "c2070",
-    "name": "chrn_c2070",
+    "_id": "operator-sigret",
+    "id": "c2072",
+    "name": "chrn_c2072",
     "moonlight": true,
     "rarity": 5,
-    "attribute": "light",
-    "role": "knight",
-    "zodiac": "fish",
-    "description": "c2070_2line",
-    "story": "c2070_de_story",
-    "get_line": "c2070_gacha_get",
+    "attribute": "dark",
+    "role": "ranger",
+    "zodiac": "scales",
+    "description": "c2072_2line",
+    "story": "c2072_de_story",
+    "get_line": "c2072_gacha_get",
     "stats": {
-        "bra": 76,
-        "int": 104,
-        "fai": 97,
-        "des": 65
+        "bra": 94,
+        "int": 90,
+        "fai": 61,
+        "des": 89
     },
     "relationships": [
         {
@@ -22,9 +22,9 @@
             "description": null,
             "relations": [
                 {
-                    "id": "c2072",
+                    "id": "c2070",
                     "slot": 1,
-                    "description": "chre_c2070_1_rt",
+                    "description": "chre_c2072_1_rt",
                     "relation": "re_trust_tx",
                     "upgrade": {}
                 }
@@ -32,7 +32,7 @@
         }
     ],
     "self_devotion": {
-        "type": "max_hp_rate",
+        "type": "att_rate",
         "grades": {
             "B": 0.06,
             "A": 0.09,
@@ -42,66 +42,66 @@
         }
     },
     "devotion": {
-        "type": "cri",
+        "type": "att_rate",
         "grades": {
-            "B": 0.058,
-            "A": 0.087,
-            "S": 0.116,
-            "SS": 0.145,
-            "SSS": 0.174
+            "B": 0.043,
+            "A": 0.065,
+            "S": 0.086,
+            "SS": 0.107,
+            "SSS": 0.129
         },
         "slots": {
             "1": false,
             "2": true,
-            "3": false,
-            "4": true
+            "3": true,
+            "4": false
         }
     },
     "specialty": {
-        "name": "sms_c2070_nm",
-        "description": "sms_c2070_de",
-        "icon": "smc_mission_1",
+        "name": "sms_c2072_nm",
+        "description": "sms_c2072_de",
+        "icon": "smc_prov_1",
         "effect_type": "reward_bonus",
         "effect_value": 0.1,
-        "command": 72,
-        "charm": 85,
-        "politics": 58,
+        "command": 75,
+        "charm": 82,
+        "politics": 68,
         "type": {
-            "name": "smc_mission_nm",
-            "description": "smc_mission_de"
+            "name": "smc_prov_nm",
+            "description": "smc_prov_de"
         }
     },
     "camping": {
         "personalities": [
-            "c_pers_29_cool",
-            "c_pers_9_trauma"
+            "c_pers_7_academic",
+            "c_pers_10_loyalty"
         ],
         "topics": [
-            "c_topic_11_narcissis",
-            "c_topic_22_belief"
+            "c_topic_10_unique",
+            "c_topic_2_realistic"
         ],
         "values": {
-            "c_topic_1_criticism": 5,
-            "c_topic_2_realistic": -1,
-            "c_topic_3_taleheroic": 1,
-            "c_topic_4_cheeringup": -5,
-            "c_topic_5_charmcheer": 1,
-            "c_topic_6_herocheer": 0,
+            "c_topic_1_criticism": 1,
+            "c_topic_2_realistic": 3,
+            "c_topic_3_taleheroic": 3,
+            "c_topic_4_cheeringup": 4,
+            "c_topic_5_charmcheer": 2,
+            "c_topic_6_herocheer": 6,
             "c_topic_7_sadmemo": 3,
-            "c_topic_8_enjoymemo": 4,
-            "c_topic_9_happymemo": 0,
-            "c_topic_10_unique": 6,
-            "c_topic_11_narcissis": 1,
-            "c_topic_12_occult": 3,
-            "c_topic_13_myth": 0,
-            "c_topic_14_gagsto": -2,
-            "c_topic_15_foodsto": 0,
-            "c_topic_16_horrorsto": 0,
-            "c_topic_17_gossip": -3,
-            "c_topic_18_dream": 2,
-            "c_topic_19_advice": -2,
-            "c_topic_20_moaning": -3,
-            "c_topic_22_belief": 5,
+            "c_topic_8_enjoymemo": 2,
+            "c_topic_9_happymemo": 2,
+            "c_topic_10_unique": -3,
+            "c_topic_11_narcissis": 3,
+            "c_topic_12_occult": 1,
+            "c_topic_13_myth": 6,
+            "c_topic_14_gagsto": -1,
+            "c_topic_15_foodsto": 2,
+            "c_topic_16_horrorsto": -5,
+            "c_topic_17_gossip": -1,
+            "c_topic_18_dream": 1,
+            "c_topic_19_advice": 3,
+            "c_topic_20_moaning": 0,
+            "c_topic_22_belief": -3,
             "c_topic_25_adventure": 2
         }
     },
@@ -112,14 +112,14 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runelight1",
+                    "item": "ma_runedark1",
                     "count": 10
                 }
             ],
             "stats": [
                 {
-                    "stat": "def_rate",
-                    "value": 0.03,
+                    "stat": "cri",
+                    "value": 0.04,
                     "type": "sub"
                 },
                 {
@@ -140,18 +140,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runelight1",
+                    "item": "ma_runedark1",
                     "count": 15
                 },
                 {
-                    "item": "ma_runelight2",
+                    "item": "ma_runedark2",
                     "count": 2
                 }
             ],
             "stats": [
                 {
-                    "stat": "res",
-                    "value": 0.06,
+                    "stat": "att_rate",
+                    "value": 0.03,
                     "type": "sub"
                 },
                 {
@@ -172,11 +172,11 @@
             "skill_enhanced": 3,
             "costs": [
                 {
-                    "item": "ma_runelight1",
+                    "item": "ma_runedark1",
                     "count": 20
                 },
                 {
-                    "item": "ma_runelight2",
+                    "item": "ma_runedark2",
                     "count": 10
                 }
             ],
@@ -199,18 +199,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runelight2",
+                    "item": "ma_runedark2",
                     "count": 10
                 },
                 {
-                    "item": "ma_runelight3",
+                    "item": "ma_runedark3",
                     "count": 2
                 }
             ],
             "stats": [
                 {
-                    "stat": "max_hp_rate",
-                    "value": 0.06,
+                    "stat": "cri_dmg",
+                    "value": 0.1,
                     "type": "sub"
                 },
                 {
@@ -231,18 +231,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runelight3",
+                    "item": "ma_runedark3",
                     "count": 6
                 },
                 {
-                    "item": "ma_bone_es",
+                    "item": "ma_dreamer_es",
                     "count": 15
                 }
             ],
             "stats": [
                 {
-                    "stat": "def_rate",
-                    "value": 0.06,
+                    "stat": "cri",
+                    "value": 0.08,
                     "type": "sub"
                 },
                 {
@@ -263,18 +263,18 @@
             "skill_enhanced": false,
             "costs": [
                 {
-                    "item": "ma_runelight3",
+                    "item": "ma_runedark3",
                     "count": 10
                 },
                 {
-                    "item": "ma_golem_es",
+                    "item": "ma_raingar_es",
                     "count": 10
                 }
             ],
             "stats": [
                 {
-                    "stat": "res",
-                    "value": 0.12,
+                    "stat": "att_rate",
+                    "value": 0.06,
                     "type": "sub"
                 },
                 {
@@ -292,19 +292,17 @@
     ],
     "skills": [
         {
-            "name": "sk_c2070_1_sknm",
-            "icon": "sk_c2070_1",
+            "name": "sk_c2072_1_sknm",
+            "icon": "sk_c2072_1",
             "can_enhance": false,
-            "description": "sk_c2070_1_de",
+            "description": "sk_c2072_1_de",
             "values": [],
             "passive": false,
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 0.7,
-            "buff": [
-                3
-            ],
+            "att_rate": 1.0,
+            "buff": [],
             "debuff": [],
             "common": [],
             "enhancements": [
@@ -346,7 +344,7 @@
                             "count": 1
                         },
                         {
-                            "item": "ma_imp_es",
+                            "item": "ma_gem_es",
                             "count": 5
                         }
                     ]
@@ -363,7 +361,7 @@
                             "count": 3
                         },
                         {
-                            "item": "ma_imp_es",
+                            "item": "ma_gem_es",
                             "count": 7
                         }
                     ]
@@ -380,7 +378,7 @@
                             "count": 5
                         },
                         {
-                            "item": "ma_golem_es",
+                            "item": "ma_raingar_es",
                             "count": 2
                         }
                     ]
@@ -388,24 +386,27 @@
             ]
         },
         {
-            "name": "sk_c2070_2_sknm",
-            "icon": "sk_c2070_2",
+            "name": "sk_c2072_2_sknm",
+            "icon": "sk_c2072_2",
             "can_enhance": false,
-            "description": "sk_c2070_2_de",
+            "description": "sk_c2072_2_de",
             "values": [],
-            "passive": true,
-            "cooldown": 0,
-            "soul_gain": 0,
+            "passive": false,
+            "cooldown": 4,
+            "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1.0,
+            "att_rate": 0.8,
             "buff": [
                 5
             ],
             "debuff": [],
-            "common": [],
+            "common": [
+                35,
+                34
+            ],
             "enhancements": [
                 {
-                    "string": "pa_c2070_21_de",
+                    "string": "sklv_de_dmg5",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -418,7 +419,7 @@
                     ]
                 },
                 {
-                    "string": "pa_c2070_22_de",
+                    "string": "sklv_de_dmg5",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -431,7 +432,7 @@
                     ]
                 },
                 {
-                    "string": "pa_c2070_23_de",
+                    "string": "sklv_de_dmg5",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -442,13 +443,13 @@
                             "count": 1
                         },
                         {
-                            "item": "ma_imp_es",
+                            "item": "ma_gem_es",
                             "count": 5
                         }
                     ]
                 },
                 {
-                    "string": "pa_c2070_24_de",
+                    "string": "sklv_de_dmg5",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -459,13 +460,13 @@
                             "count": 3
                         },
                         {
-                            "item": "ma_imp_es",
+                            "item": "ma_gem_es",
                             "count": 7
                         }
                     ]
                 },
                 {
-                    "string": "pa_c2070_25_de",
+                    "string": "sklv_de_dmg10",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -476,7 +477,7 @@
                             "count": 5
                         },
                         {
-                            "item": "ma_golem_es",
+                            "item": "ma_raingar_es",
                             "count": 2
                         }
                     ]
@@ -484,28 +485,28 @@
             ]
         },
         {
-            "name": "sk_c2070_3_sknm",
-            "icon": "sk_c2070_3",
+            "name": "sk_c2072_3_sknm",
+            "icon": "sk_c2072_3",
             "can_enhance": true,
-            "description": "sk_c2070_3_de",
-            "values": [],
+            "description": "sk_c2072_3_de",
+            "values": [
+                0.75
+            ],
             "passive": false,
-            "cooldown": 7,
+            "cooldown": 5,
             "soul_gain": 3,
-            "pow": 1,
-            "att_rate": 0.3,
+            "pow": 1.1,
+            "att_rate": 1.1,
             "buff": [
-                12
+                1
             ],
             "debuff": [],
-            "common": [
-                34
-            ],
-            "soul_description": "sk_c2070_3s_de",
+            "common": [],
+            "soul_description": "sk_c2072_3s_de",
             "soul_requirement": 10,
-            "soul_pow": 1,
-            "soul_att_rate": 0.3,
-            "enhanced_description": "sk_c2070_3u_de",
+            "soul_pow": 1.1,
+            "soul_att_rate": 1.1,
+            "enhanced_description": "sk_c2072_3u_de",
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -521,7 +522,7 @@
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg5",
+                    "string": "sklv_de_eff1_10",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -545,13 +546,13 @@
                             "count": 1
                         },
                         {
-                            "item": "ma_imp_es",
+                            "item": "ma_gem_es",
                             "count": 5
                         }
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg10",
+                    "string": "sklv_de_eff1_15",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -562,13 +563,13 @@
                             "count": 3
                         },
                         {
-                            "item": "ma_imp_es",
+                            "item": "ma_gem_es",
                             "count": 7
                         }
                     ]
                 },
                 {
-                    "string": "sklv_de_dmg10",
+                    "string": "sklv_de_dmg15",
                     "costs": [
                         {
                             "item": "to_gold",
@@ -579,7 +580,7 @@
                             "count": 5
                         },
                         {
-                            "item": "ma_golem_es",
+                            "item": "ma_raingar_es",
                             "count": 2
                         }
                     ]

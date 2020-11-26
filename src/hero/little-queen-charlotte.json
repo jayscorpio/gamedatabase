@@ -308,7 +308,7 @@
             "cooldown": 0,
             "soul_gain": 1,
             "pow": 1,
-            "att_rate": 1.0,
+            "att_rate": 1.2,
             "buff": [
                 12
             ],

@@ -412,7 +412,7 @@
             "description": "sk_c2015_2_de",
             "values": [
                 0.85,
-                0.65,
+                0.7,
                 0.1
             ],
             "passive": false,
@@ -515,14 +515,18 @@
             "cooldown": 5,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 1.2,
+            "att_rate": 0.5,
             "buff": [],
-            "debuff": [],
-            "common": [],
+            "debuff": [
+                28
+            ],
+            "common": [
+                34
+            ],
             "soul_description": "sk_c2015_3us_de",
             "soul_requirement": 20,
             "soul_pow": 1,
-            "soul_att_rate": 1.2,
+            "soul_att_rate": 0.5,
             "enhanced_description": "sk_c2015_3u_de",
             "enhancements": [
                 {

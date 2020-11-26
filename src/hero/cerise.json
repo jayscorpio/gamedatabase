@@ -327,7 +327,9 @@
             "att_rate": 1.0,
             "buff": [],
             "debuff": [],
-            "common": [],
+            "common": [
+                33
+            ],
             "enhancements": [
                 {
                     "string": "sklv_de_dmg5",
@@ -421,7 +423,8 @@
             "att_rate": 1.5,
             "buff": [],
             "debuff": [
-                20
+                20,
+                29
             ],
             "common": [],
             "soul_description": "sk_c1081_2s_de",
@@ -520,7 +523,7 @@
             "cooldown": 5,
             "soul_gain": 3,
             "pow": 1.1,
-            "att_rate": 0.9,
+            "att_rate": 1.0,
             "buff": [
                 6
             ],
