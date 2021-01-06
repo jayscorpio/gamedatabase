@@ -1,0 +1,8 @@
+{
+    "_id": "65",
+    "id": 65,
+    "icon": "stic_provoke_hp",
+    "type": "debuff",
+    "name": "stic_provoke_hp_skeffnm",
+    "effect": "stic_provoke_hp_de"
+}

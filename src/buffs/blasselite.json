@@ -1,0 +1,8 @@
+{
+    "_id": "blasselite",
+    "id": "blass_elite",
+    "icon": "stic_elemental_aura",
+    "type": "common",
+    "name": "blass_elite_skeffnm",
+    "effect": "blass_elite_de"
+}

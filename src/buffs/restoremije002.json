@@ -1,0 +1,8 @@
+{
+    "_id": "restoremije002",
+    "id": "restore_mije002",
+    "icon": "stic_restore",
+    "type": "buff",
+    "name": "restore_mije002_skeffnm",
+    "effect": "restore_mije002_de"
+}

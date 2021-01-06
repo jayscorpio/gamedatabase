@@ -1,0 +1,55 @@
+{
+    "identifier": "efm19",
+    "name": "efm19_name",
+    "rarity": 5,
+    "role": "mage",
+    "limited": false,
+    "description": "efm19_desc",
+    "assets": {
+        "icon": "icon_art0123",
+        "image": "art0123_fu",
+        "thumbnail": "art0123_l"
+    },
+    "stats": {
+        "attack": 21,
+        "health": 32
+    },
+    "skill": {
+        "description": "sk_efm19_de",
+        "enhancements": [
+            [
+                750.0
+            ],
+            [
+                825.0
+            ],
+            [
+                900.0
+            ],
+            [
+                975.0
+            ],
+            [
+                1050.0
+            ],
+            [
+                1125.0
+            ],
+            [
+                1200.0
+            ],
+            [
+                1275.0
+            ],
+            [
+                1350.0
+            ],
+            [
+                1425.0
+            ],
+            [
+                1500.0
+            ]
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 {
     "_id": "aby101berserk",
     "id": "aby101_berserk",
-    "icon": "stic_rage_4",
+    "icon": "stic_rage_4_aura",
     "type": "buff",
     "name": "aby101_berserk_skeffnm",
     "effect": "aby101_berserk_de"

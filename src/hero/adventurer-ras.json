@@ -34,6 +34,13 @@
                     "description": "chre_c5001_2_rt",
                     "relation": "re_trust_tx",
                     "upgrade": {}
+                },
+                {
+                    "id": "c1104",
+                    "slot": 3,
+                    "description": "chre_c5001_3_rt",
+                    "relation": "re_grudge_tx",
+                    "upgrade": {}
                 }
             ]
         }

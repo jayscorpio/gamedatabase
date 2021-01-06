@@ -1,7 +1,7 @@
 {
     "_id": "aby107bloodcurse",
     "id": "aby107_bloodcurse",
-    "icon": "stic_curse2_keep",
+    "icon": "stic_curse2_aura",
     "type": "debuff",
     "name": "aby107_bloodcurse_skeffnm",
     "effect": "aby107_bloodcurse_de"

@@ -1,7 +1,7 @@
 {
     "_id": "aby109cure",
     "id": "aby109_cure",
-    "icon": "stic_heal_keep",
+    "icon": "stic_heal_aura",
     "type": "buff",
     "name": "aby109_cure_skeffnm",
     "effect": "aby109_cure_de"

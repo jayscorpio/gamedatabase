@@ -1,0 +1,8 @@
+{
+    "_id": "dfirstmdic003",
+    "id": "dfirst_mdic003",
+    "icon": "stic_debuff_one",
+    "type": "debuff",
+    "name": "dfirst_mdic003_sknm",
+    "effect": "dfirst_mdic003_de"
+}

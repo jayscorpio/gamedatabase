@@ -1,0 +1,8 @@
+{
+    "_id": "dtwompao003",
+    "id": "dtwo_mpao003",
+    "icon": "stic_debuff_two",
+    "type": "debuff",
+    "name": "dtwo_mpao003_sknm",
+    "effect": "dtwo_mpao003_de"
+}

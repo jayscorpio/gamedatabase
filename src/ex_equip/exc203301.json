@@ -1,0 +1,42 @@
+{
+    "_id": "exc203301",
+    "id": "exc203301",
+    "name": "exc203301_name",
+    "description": "exc203301_desc",
+    "unit": "c2033",
+    "role": "assassin",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c2033",
+    "stat": {
+        "type": "att_rate",
+        "value": 0.07
+    },
+    "skills": [
+        {
+            "skill": 1,
+            "description": "ek_c203301_01_de",
+            "skill_description": null,
+            "values": []
+        },
+        {
+            "skill": 1,
+            "description": "ek_c203301_02_de",
+            "skill_description": "ek_c203301_02sk_de",
+            "values": [
+                56,
+                15,
+                3
+            ]
+        },
+        {
+            "skill": 3,
+            "description": "ek_c203301_03_de",
+            "skill_description": "ek_c203301_03sk_de",
+            "values": [
+                20,
+                28,
+                12
+            ]
+        }
+    ]
+}

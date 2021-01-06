@@ -1,0 +1,8 @@
+{
+    "_id": "12a",
+    "id": "12a",
+    "icon": "stic_debuf_impossible_aura",
+    "type": "common",
+    "name": "stic_res_up_skeffnm",
+    "effect": "stic_res_up_aura_de"
+}

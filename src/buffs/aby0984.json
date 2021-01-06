@@ -1,8 +1,8 @@
 {
     "_id": "aby0984",
     "id": "aby098_4",
-    "icon": "stic_bomb_keep",
-    "type": "debuff",
+    "icon": "stic_bomb_aura",
+    "type": "common",
     "name": "aby098_4_csnm",
     "effect": "aby098_4_de"
 }

@@ -1,0 +1,8 @@
+{
+    "_id": "stunnotdead",
+    "id": "stun_notdead",
+    "icon": "stic_stun_aura",
+    "type": "common",
+    "name": "stun_notdead_skeffnm",
+    "effect": "stun_notdead_de"
+}

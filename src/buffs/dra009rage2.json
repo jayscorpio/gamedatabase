@@ -1,0 +1,8 @@
+{
+    "_id": "dra009rage2",
+    "id": "dra009_rage2",
+    "icon": "stic_rage_2",
+    "type": "buff",
+    "name": "dra009_rage2_skeffnm",
+    "effect": "dra009_rage2_de"
+}

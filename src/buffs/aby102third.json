@@ -1,7 +1,7 @@
 {
     "_id": "aby102third",
     "id": "aby102_third",
-    "icon": "stic_buff_three",
+    "icon": "stic_buff_three_aura",
     "type": "buff",
     "name": "aby102_third_skeffnm",
     "effect": "aby102_third_de"
