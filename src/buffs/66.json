@@ -1,0 +1,8 @@
+{
+    "_id": "66",
+    "id": 66,
+    "icon": "stic_dizzy",
+    "type": "debuff",
+    "name": "stic_dizzy_skeffnm",
+    "effect": "stic_dizzy_de"
+}
