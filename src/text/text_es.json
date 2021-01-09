@@ -5592,7 +5592,7 @@
     "sk_c4035_1_de": "Lanza al enemigo al aire con una lanza.",
     "sk_c4035_1_sknm": "Golpe filoso",
     "sk_c4035_1u_de": "Lanza al enemigo al aire con una lanza y aumenta la presteza para el combate de quien la lanza en <#FF9900>{{variable}} %</>.",
-    "sk_c4035_2_de": "Aumenta el ataque un <#FF9900>{{variable}} %</> cada vez que el héroe ataca. El efecto se acumula hasta cinco veces.{{variable}}",
+    "sk_c4035_2_de": "Aumenta el ataque un <#FF9900>{{variable}} %</> cada vez que el héroe ataca. El efecto se acumula hasta cinco veces.",
     "sk_c4035_2_sknm": "Armamento espiritual",
     "sk_c4035_3_de": "Ataca al enemigo con un arma punzante y disminuye la presteza un <#FF9900>{{variable}} %</>.El daño causado aumenta según la vida que ha perdido el enemigo.",
     "sk_c4035_3_sknm": "Avance de espiral",

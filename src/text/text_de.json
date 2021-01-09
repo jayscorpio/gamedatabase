@@ -5592,7 +5592,7 @@
     "sk_c4035_1_de": "Wirft den Gegner mit einem Speer in die Luft.",
     "sk_c4035_1_sknm": "Scharfer Schlag",
     "sk_c4035_1u_de": "Wirft den Gegner mit einem Speer in die Luft. Erhöht Kampfbereitschaft des Wirkers um <#FF9900>{{variable}} %</>.",
-    "sk_c4035_2_de": "Erhöht für jeden Angriff des Wirkers auf einen Gegner den Angriff um <#FF9900>{{variable}} %</>. Effekt ist bis zu 5-mal stapelbar.{{variable}}",
+    "sk_c4035_2_de": "Erhöht für jeden Angriff des Wirkers auf einen Gegner den Angriff um <#FF9900>{{variable}} %</>. Effekt ist bis zu 5-mal stapelbar.",
     "sk_c4035_2_sknm": "Geisterhafte Bewaffnung",
     "sk_c4035_3_de": "Durchbohrt den Gegner mit einem Speer. Senkt die Kampfbereitschaft um <#FF9900>{{variable}} %</>. Zugefügter Schaden steigt proportional zur fehlenden Gesundheit des Gegners.",
     "sk_c4035_3_sknm": "Spiralförmiger Durchbruch",
