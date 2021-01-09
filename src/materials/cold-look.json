@@ -16,42 +16,49 @@
     "shops": [
         {
             "chapter": "world_name_gdw",
+            "continent": "level_word_1_name_1",
             "price": 120,
             "limit_count": 2,
             "period": "week"
         },
         {
             "chapter": "world_name_dic",
+            "continent": "level_word_1_name_1",
             "price": 120,
             "limit_count": 2,
             "period": "week"
         },
         {
             "chapter": "world_name_wip",
+            "continent": "level_word_1_name_6",
             "price": 120,
             "limit_count": 5,
             "period": "week"
         },
         {
             "chapter": "world_name_jer",
+            "continent": "level_word_1_name_5",
             "price": 120,
             "limit_count": 5,
             "period": "week"
         },
         {
             "chapter": "world_name_pup",
+            "continent": "level_word_1_name_5",
             "price": 120,
             "limit_count": 5,
             "period": "week"
         },
         {
             "chapter": "world_name_gdww",
+            "continent": "level_word_1_name_1",
             "price": 120,
             "limit_count": 5,
             "period": "week"
         },
         {
             "chapter": "world_name_dicw",
+            "continent": "level_word_1_name_1",
             "price": 120,
             "limit_count": 5,
             "period": "week"

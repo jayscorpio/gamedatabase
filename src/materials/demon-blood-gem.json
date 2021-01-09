@@ -16,6 +16,7 @@
     "shops": [
         {
             "chapter": "world_name_daww",
+            "continent": "level_word_1_name_1",
             "price": 400,
             "limit_count": 2,
             "period": "week"

@@ -16,12 +16,14 @@
     "shops": [
         {
             "chapter": "world_name_pow",
+            "continent": "level_word_1_name_6",
             "price": 400,
             "limit_count": 2,
             "period": "week"
         },
         {
             "chapter": "world_name_raiw",
+            "continent": "level_word_1_name_1",
             "price": 400,
             "limit_count": 2,
             "period": "week"
