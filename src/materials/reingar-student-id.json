@@ -12,5 +12,19 @@
         "icon": "ma_raingar_es"
     },
     "request_count": 0,
-    "support_count": 0
+    "support_count": 0,
+    "shops": [
+        {
+            "chapter": "world_name_pow",
+            "price": 400,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_raiw",
+            "price": 400,
+            "limit_count": 2,
+            "period": "week"
+        }
+    ]
 }

@@ -12,5 +12,49 @@
         "icon": "ma_banshee_es"
     },
     "request_count": 2,
-    "support_count": 1
+    "support_count": 1,
+    "shops": [
+        {
+            "chapter": "world_name_sof",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_tam",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_wip",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_mel",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_pen",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sofw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_tamw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        }
+    ]
 }

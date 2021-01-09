@@ -12,5 +12,13 @@
         "icon": "ma_golem_es"
     },
     "request_count": 0,
-    "support_count": 0
+    "support_count": 0,
+    "shops": [
+        {
+            "chapter": "world_name_wenw",
+            "price": 400,
+            "limit_count": 2,
+            "period": "week"
+        }
+    ]
 }

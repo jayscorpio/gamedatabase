@@ -12,5 +12,55 @@
         "icon": "ma_hatchling_es"
     },
     "request_count": 2,
-    "support_count": 1
+    "support_count": 1,
+    "shops": [
+        {
+            "chapter": "world_name_sab",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_daw",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_wis",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_mel",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_cle",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_dis",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sabw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_daww",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        }
+    ]
 }

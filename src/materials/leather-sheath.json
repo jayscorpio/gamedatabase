@@ -12,5 +12,43 @@
         "icon": "ma_swordman_es"
     },
     "request_count": 2,
-    "support_count": 1
+    "support_count": 1,
+    "shops": [
+        {
+            "chapter": "world_name_sof",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_wes",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_aak",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_pen",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sofw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_wesw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        }
+    ]
 }

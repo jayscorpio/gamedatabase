@@ -12,5 +12,43 @@
         "icon": "ma_bowman_es"
     },
     "request_count": 2,
-    "support_count": 1
+    "support_count": 1,
+    "shops": [
+        {
+            "chapter": "world_name_tae",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sos",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_aak",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_pen",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_taew",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sosw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        }
+    ]
 }

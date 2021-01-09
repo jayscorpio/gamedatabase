@@ -12,5 +12,43 @@
         "icon": "ma_rodent_es"
     },
     "request_count": 2,
-    "support_count": 1
+    "support_count": 1,
+    "shops": [
+        {
+            "chapter": "world_name_sab",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_pao",
+            "price": 120,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_dra",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_bla",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sabw",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_paow",
+            "price": 120,
+            "limit_count": 5,
+            "period": "week"
+        }
+    ]
 }

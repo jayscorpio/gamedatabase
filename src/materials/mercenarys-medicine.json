@@ -12,5 +12,19 @@
         "icon": "ma_hired_es"
     },
     "request_count": 0,
-    "support_count": 0
+    "support_count": 0,
+    "shops": [
+        {
+            "chapter": "world_name_wis",
+            "price": 400,
+            "limit_count": 2,
+            "period": "week"
+        },
+        {
+            "chapter": "world_name_sosw",
+            "price": 400,
+            "limit_count": 2,
+            "period": "week"
+        }
+    ]
 }
