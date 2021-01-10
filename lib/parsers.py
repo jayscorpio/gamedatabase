@@ -179,7 +179,7 @@ def hero_parser(filename, data, get_translation_specific):
 
     # try:
     if data["specialty_change"]:
-        if data["specialty_change.quests"] and len(data["specialty_change.quests"]) > 0:
+        if "quests" in data["specialty_change"] and data["specialty_change.quests"] and len(data["specialty_change.quests"]) > 0:
             for sc_in in range(len(data["specialty_change.quests"])):
                 data["specialty_change.quests"][sc_in]["category"] = get_translation_specific(
                     data["specialty_change.quests"][sc_in]["category"])
@@ -188,7 +188,7 @@ def hero_parser(filename, data, get_translation_specific):
                 data["specialty_change.quests"][sc_in]["mission_description"] = get_translation_specific(
                     data["specialty_change.quests"][sc_in]["mission_description"])
 
-        if data["specialty_change.tree"] and len(data["specialty_change.tree"]) > 0:
+        if "tree" in data["specialty_change"] and data["specialty_change.tree"] and len(data["specialty_change.tree"]) > 0:
             for sc_tree_in in range(len(data["specialty_change.tree"])):
                 for sc_tree_row_in in range(len(data["specialty_change.tree"][sc_tree_in])):
                     for sc_tree_row_enhancements_in in range(len(data["specialty_change.tree"][sc_tree_in][sc_tree_row_in]['enhancements'])):
