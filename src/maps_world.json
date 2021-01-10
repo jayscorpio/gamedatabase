@@ -1,0 +1,644 @@
+{
+    "ma_rodent_es": {
+        "level_word_1_name_1": {
+            "map_sab001": 4,
+            "map_sab002": 9,
+            "map_sab007": 11,
+            "map_sab008": 5,
+            "map_pao002": 2,
+            "map_pao004": 7,
+            "map_sos003": 8,
+            "map_sos004": 9,
+            "map_sof006": 11,
+            "map_gdw002": 7,
+            "map_gdw003": 11,
+            "map_gdw006": 1,
+            "map_gdw007": 4,
+            "map_gdw008": 7,
+            "map_gdw009": 12,
+            "map_wen011": 2,
+            "map_wen014": 8,
+            "map_wen015": 8
+        }
+    },
+    "ma_carapace_es": {
+        "level_word_1_name_1": {
+            "map_sab001": 5,
+            "map_sab003": 11,
+            "map_sab009": 6,
+            "map_sab011": 10,
+            "map_pao001": 10,
+            "map_pao003": 7,
+            "map_pao005": 6,
+            "map_pao006": 5,
+            "map_daw001": 12,
+            "map_daw002": 8,
+            "map_daw006": 4,
+            "map_gdw001": 11,
+            "map_gdw007": 3,
+            "map_dic001": 8,
+            "map_dic002": 7,
+            "map_dic003": 5,
+            "map_dic011": 8
+        }
+    },
+    "ma_candle_es": {
+        "level_word_1_name_1": {
+            "map_sab004": 2,
+            "map_sab006": 4,
+            "map_ije009": 2,
+            "map_ije010": 1,
+            "map_tae012": 5,
+            "map_tae013": 5,
+            "map_tam006": 2,
+            "map_gde010": 3,
+            "map_gde011": 3,
+            "map_dic007": 4,
+            "map_dic008": 4,
+            "map_dic010": 4
+        }
+    },
+    "ma_bone_es": {
+        "level_word_1_name_1": {
+            "map_sab004": 7,
+            "map_sab006": 6,
+            "map_ije009": 7,
+            "map_ije010": 2,
+            "map_tae012": 3,
+            "map_tae013": 2,
+            "map_tam006": 7,
+            "map_gde010": 6,
+            "map_gde011": 3,
+            "map_dic007": 1,
+            "map_dic009": 6,
+            "map_dic010": 2
+        }
+    },
+    "ma_slime_es": {
+        "level_word_1_name_1": {
+            "map_sab005": 6,
+            "map_sab008": 4,
+            "map_pao008": 6,
+            "map_ije001": 9,
+            "map_ije002": 9,
+            "map_ije003": 5,
+            "map_ije006": 3,
+            "map_ije008": 3,
+            "map_ije011": 4,
+            "map_ije014": 5,
+            "map_ije015": 1,
+            "map_ije016": 3,
+            "map_daw011": 4,
+            "map_daw013": 3,
+            "map_riv001": 10,
+            "map_riv002": 2,
+            "map_riv005": 4,
+            "map_riv007": 4,
+            "map_rai014": 3,
+            "map_rai015": 2,
+            "map_rai016": 2,
+            "map_sos001": 9,
+            "map_sos002": 4,
+            "map_sos006": 8,
+            "map_sos009": 8,
+            "map_sof007": 6,
+            "map_taw006": 11,
+            "map_taw007": 5,
+            "map_taw008": 2,
+            "map_gde001": 1,
+            "map_gde002": 4,
+            "map_gde004": 4,
+            "map_gde009": 4,
+            "map_wes011": 7,
+            "map_wes013": 6,
+            "map_wes014": 8,
+            "map_wen001": 4,
+            "map_wen002": 7,
+            "map_wen003": 5,
+            "map_wen011": 4,
+            "map_wen012": 2
+        }
+    },
+    "ma_hatchling_es": {
+        "level_word_1_name_1": {
+            "map_sab005": 5,
+            "map_sab010": 7,
+            "map_pao002": 6,
+            "map_ije012": 2,
+            "map_ije014": 1,
+            "map_ije015": 1,
+            "map_tae006": 11,
+            "map_daw004": 3,
+            "map_daw005": 11,
+            "map_daw006": 6,
+            "map_daw015": 4,
+            "map_daw016": 6,
+            "map_riv006": 2,
+            "map_sos002": 5,
+            "map_sos008": 3,
+            "map_sos010": 7,
+            "map_sos011": 2,
+            "map_sof007": 5,
+            "map_sof008": 5,
+            "map_sof009": 6,
+            "map_sof011": 4,
+            "map_gdw004": 11,
+            "map_wes015": 2,
+            "map_wen012": 3,
+            "map_wen013": 5,
+            "map_wen014": 3,
+            "map_wen015": 3
+        }
+    },
+    "ma_powder_es": {
+        "level_word_1_name_1": {
+            "map_sab006": 1,
+            "map_tae012": 1,
+            "map_tam006": 1,
+            "map_dic010": 1
+        }
+    },
+    "ma_hired_es": {
+        "level_word_1_name_1": {
+            "map_sab009": 2,
+            "map_pao004": 1,
+            "map_pao005": 1,
+            "map_pao008": 1,
+            "map_daw016": 1,
+            "map_riv004": 2,
+            "map_riv006": 1,
+            "map_sos004": 1,
+            "map_sos008": 1,
+            "map_wes004": 2,
+            "map_wen011": 1
+        }
+    },
+    "ma_wyvern_es": {
+        "level_word_1_name_1": {
+            "map_sab010": 1
+        }
+    },
+    "ma_wolf_es": {
+        "level_word_1_name_1": {
+            "map_pao002": 4,
+            "map_ije004": 4,
+            "map_ije005": 6,
+            "map_ije011": 3,
+            "map_ije016": 3,
+            "map_daw007": 9,
+            "map_daw008": 6,
+            "map_riv003": 2,
+            "map_riv004": 3,
+            "map_rai012": 2,
+            "map_sos008": 4,
+            "map_sos010": 1,
+            "map_sos011": 4,
+            "map_sof009": 5,
+            "map_sof011": 3,
+            "map_gdw002": 4,
+            "map_gdw005": 5,
+            "map_gdw006": 6,
+            "map_gde003": 8,
+            "map_gde004": 2,
+            "map_gde009": 2,
+            "map_wes001": 11,
+            "map_wes005": 9,
+            "map_wes011": 4,
+            "map_wes012": 4,
+            "map_wes013": 1,
+            "map_wes015": 5,
+            "map_wen016": 2
+        }
+    },
+    "ma_dreamer_es": {
+        "level_word_1_name_1": {
+            "map_pao003": 4,
+            "map_pao006": 5,
+            "map_rai009": 3,
+            "map_rai010": 6,
+            "map_rai016": 2,
+            "map_sof008": 4,
+            "map_gde005": 4,
+            "map_gde006": 3,
+            "map_gde007": 7,
+            "map_gde008": 5,
+            "map_wes009": 10,
+            "map_wen004": 8,
+            "map_wen005": 11
+        }
+    },
+    "ma_spearman_es": {
+        "level_word_1_name_1": {
+            "map_pao004": 2,
+            "map_pao005": 2,
+            "map_ije012": 2,
+            "map_ije013": 6,
+            "map_sos011": 2,
+            "map_sof002": 3,
+            "map_sof003": 1,
+            "map_sof004": 2,
+            "map_gde001": 4,
+            "map_wen006": 3,
+            "map_wen007": 6,
+            "map_wen008": 3,
+            "map_wen010": 2
+        }
+    },
+    "ma_nature_es": {
+        "level_word_1_name_1": {
+            "map_pao007": 11,
+            "map_ije006": 6,
+            "map_ije007": 9,
+            "map_ije011": 2,
+            "map_ije012": 2,
+            "map_ije015": 7,
+            "map_ije016": 3,
+            "map_daw011": 2,
+            "map_daw012": 5,
+            "map_daw015": 3,
+            "map_riv002": 3,
+            "map_riv003": 7,
+            "map_riv004": 3,
+            "map_riv005": 5,
+            "map_riv007": 2,
+            "map_rai001": 2,
+            "map_rai012": 5,
+            "map_rai013": 1,
+            "map_rai014": 6,
+            "map_rai015": 3,
+            "map_rai016": 2,
+            "map_sos005": 10,
+            "map_sos006": 3,
+            "map_sos007": 6,
+            "map_sos009": 3,
+            "map_sof001": 6,
+            "map_sof005": 10,
+            "map_sof008": 2,
+            "map_gdw005": 3,
+            "map_gde001": 4,
+            "map_gde002": 4,
+            "map_gde004": 2,
+            "map_gde009": 2,
+            "map_wes012": 5,
+            "map_wes014": 3,
+            "map_wen001": 5,
+            "map_wen002": 2,
+            "map_wen003": 4,
+            "map_wen011": 2,
+            "map_wen012": 2,
+            "map_wen013": 4
+        }
+    },
+    "ma_entree_es": {
+        "level_word_1_name_1": {
+            "map_pao008": 3,
+            "map_ije003": 3,
+            "map_ije004": 3,
+            "map_ije005": 3,
+            "map_ije012": 2,
+            "map_daw002": 4,
+            "map_daw003": 6,
+            "map_daw007": 3,
+            "map_daw008": 6,
+            "map_daw009": 6,
+            "map_daw010": 6,
+            "map_daw014": 4,
+            "map_daw015": 4,
+            "map_riv002": 4,
+            "map_rai013": 3,
+            "map_rai015": 4,
+            "map_rai016": 2,
+            "map_sos007": 5,
+            "map_sof001": 4,
+            "map_gdw005": 3,
+            "map_gde001": 2,
+            "map_gde002": 2,
+            "map_gde003": 2,
+            "map_gde004": 1,
+            "map_gde009": 2,
+            "map_gde010": 2,
+            "map_wen001": 3,
+            "map_wen002": 3,
+            "map_wen003": 3,
+            "map_wen011": 1,
+            "map_wen013": 2,
+            "map_dic001": 3,
+            "map_dic002": 3,
+            "map_dic003": 6,
+            "map_dic011": 3
+        }
+    },
+    "ma_golem_es": {
+        "level_word_1_name_1": {
+            "map_pao012": 1,
+            "map_gdw012": 1,
+            "map_gde014": 1,
+            "map_wen004": 1,
+            "map_wen016": 1
+        }
+    },
+    "ma_demont_es": {
+        "level_word_1_name_1": {
+            "map_pao012": 1,
+            "map_gdw012": 1,
+            "map_gde014": 1,
+            "map_dic005": 1,
+            "map_dic007": 1,
+            "map_dic013": 1
+        }
+    },
+    "ma_demonr_es": {
+        "level_word_1_name_1": {
+            "map_pao012": 5,
+            "map_gdw012": 4,
+            "map_gde014": 6,
+            "map_wes016": 1,
+            "map_dic004": 5,
+            "map_dic005": 5,
+            "map_dic006": 6,
+            "map_dic007": 4,
+            "map_dic008": 5,
+            "map_dic009": 1,
+            "map_dic010": 2,
+            "map_dic012": 4,
+            "map_dic013": 5
+        }
+    },
+    "ma_demon_es": {
+        "level_word_1_name_1": {
+            "map_pao012": 5,
+            "map_gdw012": 6,
+            "map_gde014": 4,
+            "map_dic004": 6,
+            "map_dic005": 4,
+            "map_dic006": 5,
+            "map_dic008": 1,
+            "map_dic009": 4,
+            "map_dic010": 2,
+            "map_dic012": 7,
+            "map_dic013": 5
+        }
+    },
+    "ma_penguin_es": {
+        "level_word_1_name_1": {
+            "map_ije008": 7,
+            "map_ije014": 3,
+            "map_daw003": 6,
+            "map_daw004": 8,
+            "map_daw009": 5,
+            "map_daw010": 6,
+            "map_daw011": 5,
+            "map_daw013": 5,
+            "map_daw014": 7,
+            "map_daw016": 2,
+            "map_riv006": 4,
+            "map_sos010": 3,
+            "map_sos011": 1,
+            "map_wes012": 2,
+            "map_wen016": 5
+        }
+    },
+    "ma_angraf_es": {
+        "level_word_1_name_1": {
+            "map_ije010": 1,
+            "map_tae010": 1,
+            "map_daw006": 1,
+            "map_rai010": 1,
+            "map_wes010": 1
+        }
+    },
+    "ma_imp_es": {
+        "level_word_1_name_1": {
+            "map_ije010": 3,
+            "map_tae001": 4,
+            "map_tae002": 11,
+            "map_tae010": 6,
+            "map_tae012": 2,
+            "map_daw012": 3,
+            "map_riv007": 3,
+            "map_sof010": 6,
+            "map_sof011": 1,
+            "map_tam002": 4,
+            "map_tam003": 5,
+            "map_tam006": 1,
+            "map_tam007": 1,
+            "map_taw008": 3,
+            "map_gdw007": 1,
+            "map_gdw008": 2,
+            "map_gde005": 6,
+            "map_gde006": 7,
+            "map_gde007": 2,
+            "map_gde008": 4,
+            "map_gde011": 4,
+            "map_wes016": 8,
+            "map_wen009": 1
+        }
+    },
+    "ma_manager_es": {
+        "level_word_1_name_1": {
+            "map_ije012": 1,
+            "map_tae007": 1,
+            "map_tae008": 1,
+            "map_tae013": 1,
+            "map_sof002": 2,
+            "map_tam005": 1,
+            "map_taw002": 1,
+            "map_wes007": 1,
+            "map_wen012": 1
+        }
+    },
+    "ma_bowman_es": {
+        "level_word_1_name_1": {
+            "map_ije013": 3,
+            "map_tae007": 2,
+            "map_sos011": 2,
+            "map_sof004": 1,
+            "map_wes013": 1,
+            "map_wen007": 6,
+            "map_wen008": 3,
+            "map_wen009": 4,
+            "map_wen010": 6
+        }
+    },
+    "ma_meca_es": {
+        "level_word_1_name_1": {
+            "map_tae001": 4,
+            "map_tae008": 4,
+            "map_tae009": 3,
+            "map_rai002": 3,
+            "map_rai003": 3,
+            "map_rai004": 5,
+            "map_rai005": 5,
+            "map_rai006": 4,
+            "map_rai007": 7,
+            "map_rai008": 7,
+            "map_rai009": 3,
+            "map_rai011": 4,
+            "map_tam007": 2,
+            "map_tam008": 5,
+            "map_wes008": 2,
+            "map_wes010": 3
+        }
+    },
+    "ma_magician_es": {
+        "level_word_1_name_1": {
+            "map_tae001": 2,
+            "map_tae003": 4,
+            "map_tae005": 3,
+            "map_tae007": 4,
+            "map_tae009": 2,
+            "map_tae011": 2,
+            "map_sof003": 4,
+            "map_sof004": 2,
+            "map_tam005": 4,
+            "map_taw003": 3,
+            "map_taw004": 6,
+            "map_taw005": 3,
+            "map_wen006": 2
+        }
+    },
+    "ma_taranor_es": {
+        "level_word_1_name_1": {
+            "map_tae001": 2,
+            "map_tae003": 8,
+            "map_tae004": 6,
+            "map_tae005": 6,
+            "map_tae007": 5,
+            "map_tae008": 5,
+            "map_tae009": 4,
+            "map_tae011": 3,
+            "map_tam005": 6,
+            "map_taw001": 11,
+            "map_taw002": 8,
+            "map_taw003": 5,
+            "map_taw004": 4,
+            "map_taw005": 9
+        }
+    },
+    "ma_homon_es": {
+        "level_word_1_name_1": {
+            "map_tae004": 1,
+            "map_tam004": 1,
+            "map_tam005": 1,
+            "map_taw003": 1
+        }
+    },
+    "ma_banshee_es": {
+        "level_word_1_name_1": {
+            "map_tae004": 5,
+            "map_tae005": 3,
+            "map_tae010": 2,
+            "map_tae011": 4,
+            "map_sof010": 4,
+            "map_tam001": 4,
+            "map_tam002": 7,
+            "map_tam003": 3,
+            "map_tam004": 10,
+            "map_tam007": 6,
+            "map_tam008": 3,
+            "map_taw003": 3,
+            "map_taw007": 6,
+            "map_taw008": 6,
+            "map_wen006": 4,
+            "map_wen008": 3,
+            "map_wen009": 5
+        }
+    },
+    "ma_siren_es": {
+        "level_word_1_name_1": {
+            "map_tae008": 2,
+            "map_tae009": 3,
+            "map_rai002": 5,
+            "map_rai003": 3,
+            "map_rai004": 5,
+            "map_rai005": 4,
+            "map_rai006": 2,
+            "map_rai007": 2,
+            "map_rai008": 2,
+            "map_rai009": 3,
+            "map_rai011": 2,
+            "map_tam007": 2,
+            "map_tam008": 2,
+            "map_taw004": 2,
+            "map_wes002": 1,
+            "map_wes003": 4,
+            "map_wes004": 3,
+            "map_wes006": 1,
+            "map_wes008": 3
+        }
+    },
+    "ma_gem_es": {
+        "level_word_1_name_1": {
+            "map_daw012": 3,
+            "map_daw013": 4,
+            "map_rai001": 7,
+            "map_rai011": 3,
+            "map_rai012": 2,
+            "map_rai013": 4,
+            "map_sof010": 1,
+            "map_sof011": 3,
+            "map_tam001": 7,
+            "map_gdw007": 3,
+            "map_gdw008": 1,
+            "map_wes002": 2,
+            "map_wes006": 3,
+            "map_wes007": 3,
+            "map_wes008": 3,
+            "map_wes010": 4,
+            "map_wes015": 4,
+            "map_wes016": 2
+        }
+    },
+    "ma_raingar_es": {
+        "level_word_1_name_1": {
+            "map_rai002": 1,
+            "map_rai003": 1,
+            "map_rai006": 1,
+            "map_rai009": 1,
+            "map_gdw006": 2
+        }
+    },
+    "ma_chimaera_es": {
+        "level_word_1_name_1": {
+            "map_rai013": 1,
+            "map_tam003": 1,
+            "map_tam008": 1
+        }
+    },
+    "ma_dreamerk_es": {
+        "level_word_1_name_1": {
+            "map_rai016": 1,
+            "map_gde007": 1,
+            "map_gde008": 1,
+            "map_wes009": 1
+        }
+    },
+    "ma_swordman_es": {
+        "level_word_1_name_1": {
+            "map_sof002": 3,
+            "map_sof003": 4,
+            "map_sof004": 2,
+            "map_wes013": 3,
+            "map_wen006": 3,
+            "map_wen008": 3,
+            "map_wen009": 2,
+            "map_wen010": 4
+        }
+    },
+    "ma_queen_es": {
+        "level_word_1_name_1": {
+            "map_sof004": 1
+        }
+    },
+    "ma_shield_es": {
+        "level_word_1_name_1": {
+            "map_wes002": 8,
+            "map_wes003": 6,
+            "map_wes004": 4,
+            "map_wes006": 8,
+            "map_wes007": 5,
+            "map_wes008": 3,
+            "map_wes010": 1
+        }
+    }
+}
