@@ -406,7 +406,85 @@
             ],
             "debuff": [],
             "common": [],
-            "enhancements": []
+            "enhancements": [
+                {
+                    "string": "pa_c3093_21",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 2000
+                        },
+                        {
+                            "item": "to_stigma",
+                            "count": 120
+                        }
+                    ]
+                },
+                {
+                    "string": "pa_c3093_22",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 4000
+                        },
+                        {
+                            "item": "to_stigma",
+                            "count": 270
+                        }
+                    ]
+                },
+                {
+                    "string": "pa_c3093_23",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 22000
+                        },
+                        {
+                            "item": "to_stigma",
+                            "count": 470
+                        },
+                        {
+                            "item": "ma_gem_es",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "string": "pa_c3093_24",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 30000
+                        },
+                        {
+                            "item": "to_stigma",
+                            "count": 740
+                        },
+                        {
+                            "item": "ma_gem_es",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "string": "pa_c3093_25",
+                    "costs": [
+                        {
+                            "item": "to_gold",
+                            "count": 40000
+                        },
+                        {
+                            "item": "to_stigma",
+                            "count": 1100
+                        },
+                        {
+                            "item": "ma_gem_es",
+                            "count": 5
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "sk_c3093_3_sknm",
