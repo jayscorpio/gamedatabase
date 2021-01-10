@@ -609,5 +609,368 @@
             ]
         }
     ],
-    "specialty_change": {}
+    "specialty_change": {
+        "tree": [
+            [
+                {
+                    "id": 1,
+                    "position": 1,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "stat",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_01_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "max_hp_rate",
+                            "value": 0.05,
+                            "description": "str_c4034_01_1_de",
+                            "upgrade": "str_c4034_01_1_up"
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "max_hp_rate",
+                            "value": 0.07,
+                            "description": "str_c4034_01_2_de",
+                            "upgrade": "str_c4034_01_2_up"
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "max_hp_rate",
+                            "value": 0.08,
+                            "description": "str_c4034_01_3_de",
+                            "upgrade": "str_c4034_01_3_up"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "position": 2,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "stat",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_02_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "acc",
+                            "value": 0.02,
+                            "description": "str_c4034_02_1_de",
+                            "upgrade": "str_c4034_02_1_up"
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "acc",
+                            "value": 0.03,
+                            "description": "str_c4034_02_2_de",
+                            "upgrade": "str_c4034_02_2_up"
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "acc",
+                            "value": 0.05,
+                            "description": "str_c4034_02_3_de",
+                            "upgrade": "str_c4034_02_3_up"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "position": 3,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "stat",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_03_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "def_rate",
+                            "value": 0.03,
+                            "description": "str_c4034_03_1_de",
+                            "upgrade": "str_c4034_03_1_up"
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "def_rate",
+                            "value": 0.05,
+                            "description": "str_c4034_03_2_de",
+                            "upgrade": "str_c4034_03_2_up"
+                        },
+                        {
+                            "type": "stat",
+                            "stat": "def_rate",
+                            "value": 0.07,
+                            "description": "str_c4034_03_3_de",
+                            "upgrade": "str_c4034_03_3_up"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "id": 4,
+                    "position": 1,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_06_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_06_1_de",
+                            "upgrade": "str_c4034_06_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_06_2_de",
+                            "upgrade": "str_c4034_06_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_06_3_de",
+                            "upgrade": "str_c4034_06_3_up"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "position": 2,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_05_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_05_1_de",
+                            "upgrade": "str_c4034_05_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_05_2_de",
+                            "upgrade": "str_c4034_05_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_05_3_de",
+                            "upgrade": "str_c4034_05_3_up"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "id": 6,
+                    "position": 1,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_04_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_04_1_de",
+                            "upgrade": "str_c4034_04_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_04_2_de",
+                            "upgrade": "str_c4034_04_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_04_3_de",
+                            "upgrade": "str_c4034_04_3_up"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "position": 3,
+                    "require_id": null,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_07_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_07_1_de",
+                            "upgrade": "str_c4034_07_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_07_2_de",
+                            "upgrade": "str_c4034_07_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_07_3_de",
+                            "upgrade": "str_c4034_07_3_up"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "id": 8,
+                    "position": 1,
+                    "require_id": 6,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_08_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_08_1_de",
+                            "upgrade": "str_c4034_08_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_08_2_de",
+                            "upgrade": "str_c4034_08_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_08_3_de",
+                            "upgrade": "str_c4034_08_3_up"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "position": 2,
+                    "require_id": 5,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_09_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_09_1_de",
+                            "upgrade": "str_c4034_09_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_09_2_de",
+                            "upgrade": "str_c4034_09_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_09_3_de",
+                            "upgrade": "str_c4034_09_3_up"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "id": 10,
+                    "position": 3,
+                    "require_id": 7,
+                    "enhancements": [
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_10_0_de",
+                            "upgrade": null
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_10_1_de",
+                            "upgrade": "str_c4034_10_1_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_10_2_de",
+                            "upgrade": "str_c4034_10_2_up"
+                        },
+                        {
+                            "type": "skill",
+                            "stat": null,
+                            "value": 0,
+                            "description": "str_c4034_10_3_de",
+                            "upgrade": "str_c4034_10_3_up"
+                        }
+                    ]
+                }
+            ]
+        ]
+    }
 }
