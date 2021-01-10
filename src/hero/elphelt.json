@@ -1,6 +1,7 @@
 {
     "_id": "elphelt",
     "id": "c1105",
+    "specialty_id": null,
     "name": "chrn_c1105",
     "moonlight": false,
     "rarity": 5,

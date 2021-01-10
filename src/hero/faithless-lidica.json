@@ -1,6 +1,7 @@
 {
     "_id": "faithless-lidica",
     "id": "c2046",
+    "specialty_id": null,
     "name": "chrn_c2046",
     "moonlight": true,
     "rarity": 5,

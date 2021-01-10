@@ -1,6 +1,7 @@
 {
     "_id": "falconer-kluri",
     "id": "c4003",
+    "specialty_id": null,
     "name": "chrn_c4003",
     "moonlight": false,
     "rarity": 3,

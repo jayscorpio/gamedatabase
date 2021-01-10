@@ -1,6 +1,7 @@
 {
     "_id": "kitty-clarissa",
     "id": "c2028",
+    "specialty_id": null,
     "name": "chrn_c2028",
     "moonlight": true,
     "rarity": 4,

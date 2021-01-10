@@ -1,6 +1,7 @@
 {
     "_id": "landy",
     "id": "c1109",
+    "specialty_id": null,
     "name": "chrn_c1109",
     "moonlight": false,
     "rarity": 5,

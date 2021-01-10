@@ -1,6 +1,7 @@
 {
     "_id": "fighter-maya",
     "id": "c2032",
+    "specialty_id": null,
     "name": "chrn_c2032",
     "moonlight": true,
     "rarity": 4,

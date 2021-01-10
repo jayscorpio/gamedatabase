@@ -1,6 +1,7 @@
 {
     "_id": "kawerik",
     "id": "c1073",
+    "specialty_id": null,
     "name": "chrn_c1073",
     "moonlight": false,
     "rarity": 5,

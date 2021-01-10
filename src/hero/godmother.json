@@ -1,6 +1,7 @@
 {
     "_id": "godmother",
     "id": "c3101",
+    "specialty_id": null,
     "name": "chrn_c3101",
     "moonlight": false,
     "rarity": 3,

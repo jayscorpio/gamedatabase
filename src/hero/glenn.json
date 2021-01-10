@@ -1,6 +1,7 @@
 {
     "_id": "glenn",
     "id": "c3103",
+    "specialty_id": null,
     "name": "chrn_c3103",
     "moonlight": false,
     "rarity": 3,

@@ -1,6 +1,7 @@
 {
     "_id": "ervalen",
     "id": "c1108",
+    "specialty_id": null,
     "name": "chrn_c1108",
     "moonlight": false,
     "rarity": 5,

@@ -1,6 +1,7 @@
 {
     "_id": "maid-chloe",
     "id": "c2049",
+    "specialty_id": null,
     "name": "chrn_c2049",
     "moonlight": true,
     "rarity": 5,

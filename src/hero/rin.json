@@ -1,6 +1,7 @@
 {
     "_id": "rin",
     "id": "c1054",
+    "specialty_id": null,
     "name": "chrn_c1054",
     "moonlight": false,
     "rarity": 4,

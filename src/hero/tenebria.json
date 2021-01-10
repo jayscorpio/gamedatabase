@@ -1,6 +1,7 @@
 {
     "_id": "tenebria",
     "id": "c1050",
+    "specialty_id": null,
     "name": "chrn_c1050",
     "moonlight": false,
     "rarity": 5,

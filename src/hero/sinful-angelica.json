@@ -1,6 +1,7 @@
 {
     "_id": "sinful-angelica",
     "id": "c2062",
+    "specialty_id": null,
     "name": "chrn_c2062",
     "moonlight": true,
     "rarity": 4,

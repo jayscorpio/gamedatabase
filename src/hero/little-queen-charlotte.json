@@ -1,6 +1,7 @@
 {
     "_id": "little-queen-charlotte",
     "id": "c2009",
+    "specialty_id": null,
     "name": "chrn_c2009",
     "moonlight": true,
     "rarity": 5,

@@ -1,6 +1,7 @@
 {
     "_id": "celine",
     "id": "c1103",
+    "specialty_id": null,
     "name": "chrn_c1103",
     "moonlight": false,
     "rarity": 5,

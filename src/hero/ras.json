@@ -1,6 +1,7 @@
 {
     "_id": "ras",
     "id": "c1001",
+    "specialty_id": "c5001",
     "name": "chrn_c1001",
     "moonlight": false,
     "rarity": 3,

@@ -1,6 +1,7 @@
 {
     "_id": "carrot",
     "id": "c3051",
+    "specialty_id": "c4051",
     "name": "chrn_c3051",
     "moonlight": false,
     "rarity": 3,

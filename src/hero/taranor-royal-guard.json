@@ -1,6 +1,7 @@
 {
     "_id": "taranor-royal-guard",
     "id": "c3002",
+    "specialty_id": null,
     "name": "chrn_c3002",
     "moonlight": false,
     "rarity": 3,

@@ -1,6 +1,7 @@
 {
     "_id": "troublemaker-crozet",
     "id": "c2036",
+    "specialty_id": null,
     "name": "chrn_c2036",
     "moonlight": true,
     "rarity": 4,

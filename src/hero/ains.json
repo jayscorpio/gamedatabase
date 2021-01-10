@@ -1,6 +1,7 @@
 {
     "_id": "ains",
     "id": "c3093",
+    "specialty_id": null,
     "name": "chrn_c3093",
     "moonlight": false,
     "rarity": 3,

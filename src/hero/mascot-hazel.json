@@ -1,6 +1,7 @@
 {
     "_id": "mascot-hazel",
     "id": "c4041",
+    "specialty_id": null,
     "name": "chrn_c4041",
     "moonlight": false,
     "rarity": 3,

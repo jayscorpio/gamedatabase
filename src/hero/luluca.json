@@ -1,6 +1,7 @@
 {
     "_id": "luluca",
     "id": "c1082",
+    "specialty_id": null,
     "name": "chrn_c1082",
     "moonlight": false,
     "rarity": 5,

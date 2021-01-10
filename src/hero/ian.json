@@ -1,6 +1,7 @@
 {
     "_id": "ian",
     "id": "c3102",
+    "specialty_id": null,
     "name": "chrn_c3102",
     "moonlight": false,
     "rarity": 3,

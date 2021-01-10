@@ -1,6 +1,7 @@
 {
     "_id": "wanda",
     "id": "c3065",
+    "specialty_id": "c4065",
     "name": "chrn_c3065",
     "moonlight": true,
     "rarity": 3,

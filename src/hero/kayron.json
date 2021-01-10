@@ -1,6 +1,7 @@
 {
     "_id": "kayron",
     "id": "c1023",
+    "specialty_id": null,
     "name": "chrn_c1023",
     "moonlight": false,
     "rarity": 5,

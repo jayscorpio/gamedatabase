@@ -1,6 +1,7 @@
 {
     "_id": "khawazu",
     "id": "c1085",
+    "specialty_id": null,
     "name": "chrn_c1085",
     "moonlight": false,
     "rarity": 4,

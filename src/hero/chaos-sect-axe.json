@@ -1,6 +1,7 @@
 {
     "_id": "chaos-sect-axe",
     "id": "c4025",
+    "specialty_id": null,
     "name": "chrn_c4025",
     "moonlight": true,
     "rarity": 3,

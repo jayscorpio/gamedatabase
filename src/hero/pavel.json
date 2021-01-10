@@ -1,6 +1,7 @@
 {
     "_id": "pavel",
     "id": "c1080",
+    "specialty_id": null,
     "name": "chrn_c1080",
     "moonlight": false,
     "rarity": 5,

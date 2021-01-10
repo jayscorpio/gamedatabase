@@ -1,6 +1,7 @@
 {
     "_id": "lilias",
     "id": "c1089",
+    "specialty_id": null,
     "name": "chrn_c1089",
     "moonlight": false,
     "rarity": 5,

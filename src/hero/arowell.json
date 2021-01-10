@@ -1,6 +1,7 @@
 {
     "_id": "arowell",
     "id": "c3004",
+    "specialty_id": null,
     "name": "chrn_c3004",
     "moonlight": true,
     "rarity": 3,

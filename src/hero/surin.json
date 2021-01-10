@@ -1,6 +1,7 @@
 {
     "_id": "surin",
     "id": "c1065",
+    "specialty_id": null,
     "name": "chrn_c1065",
     "moonlight": false,
     "rarity": 4,

@@ -1,6 +1,7 @@
 {
     "_id": "general-purrgis",
     "id": "c2035",
+    "specialty_id": null,
     "name": "chrn_c2035",
     "moonlight": true,
     "rarity": 4,

@@ -1,6 +1,7 @@
 {
     "_id": "mirsa",
     "id": "c3014",
+    "specialty_id": null,
     "name": "chrn_c3014",
     "moonlight": true,
     "rarity": 3,

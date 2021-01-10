@@ -1,6 +1,7 @@
 {
     "_id": "crimson-armin",
     "id": "c2008",
+    "specialty_id": null,
     "name": "chrn_c2008",
     "moonlight": true,
     "rarity": 4,

@@ -1,6 +1,7 @@
 {
     "_id": "bellona",
     "id": "c1071",
+    "specialty_id": null,
     "name": "chrn_c1071",
     "moonlight": false,
     "rarity": 5,

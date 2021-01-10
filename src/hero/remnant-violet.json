@@ -1,6 +1,7 @@
 {
     "_id": "remnant-violet",
     "id": "c2074",
+    "specialty_id": null,
     "name": "chrn_c2074",
     "moonlight": true,
     "rarity": 5,

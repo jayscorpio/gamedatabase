@@ -1,6 +1,7 @@
 {
     "_id": "schuri",
     "id": "c1020",
+    "specialty_id": null,
     "name": "chrn_c1020",
     "moonlight": false,
     "rarity": 4,

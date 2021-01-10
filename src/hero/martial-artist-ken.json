@@ -1,6 +1,7 @@
 {
     "_id": "martial-artist-ken",
     "id": "c2047",
+    "specialty_id": null,
     "name": "chrn_c2047",
     "moonlight": true,
     "rarity": 5,
