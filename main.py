@@ -18,6 +18,6 @@ if not PARSED_ARGS.dryrun and not PARSED_ARGS.buildonly:
     do_build()
     do_import()
 
-print('Translate script ran successfully!')
-print('Time to complete: ', datetime.now() - startTime)
+print("Translate script ran successfully!")
+print("Time to complete: ", datetime.now() - startTime)
 exit(0)

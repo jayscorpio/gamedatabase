@@ -23,7 +23,7 @@ def mPrint(*argv):
 
 
 def printline():
-    print('=================================')
+    print("=================================")
 
 
 def getLangKey(langFilePath):
@@ -34,8 +34,8 @@ def mkdir(folderName):
     if PARSED_ARGS.dryrun:
         return
 
-    if not os.path.exists(BUILD_FOLDER + '/' + folderName):
-        os.makedirs(BUILD_FOLDER + '/' + folderName)
+    if not os.path.exists(BUILD_FOLDER + "/" + folderName):
+        os.makedirs(BUILD_FOLDER + "/" + folderName)
 
 
 def saveFile(filename, path, contents):
@@ -43,16 +43,16 @@ def saveFile(filename, path, contents):
         return
 
     filepath = path + "/{0}.json".format(filename)
-    with open(filepath, 'w') as f:
+    with open(filepath, "w") as f:
         json.dump(contents, f, indent=4)
 
 
 def get_translation(customLangData):
     def translate(translationKey):
-        translation = ''
+        translation = ""
 
         if not translationKey:
-            return 'MISSING_TRANSLATION_KEY'
+            return "MISSING_TRANSLATION_KEY"
 
         if not translation and customLangData:
             try:
@@ -67,12 +67,13 @@ def get_translation(customLangData):
                 pass
 
         if not translation:
-            return 'MISSING_TRANSLATION_VALUE('+translationKey+')'
+            return "MISSING_TRANSLATION_VALUE(" + translationKey + ")"
 
         translation = COLOR_TAG_RE.sub("", translation)
         translation = LINEBREAK_RE.sub("\n", translation)
 
         return translation
+
     return translate
 
 
@@ -94,25 +95,27 @@ def translate_folder(srcFolder):
 
     for file in folder_files:
         filename = JSON_FILES_RE.sub(r"\2", file)
-        with open(file, 'r') as _file_data:
+        with open(file, "r") as _file_data:
             file_data = json.load(_file_data)
         file_keys = file_data.keys()
         if "_id" not in file_keys:
             file_data["_id"] = filename
 
         for lang in lang_files:
-            with open(lang, 'r') as _lang_file:
+            with open(lang, "r") as _lang_file:
                 currentLanguageData = json.load(_lang_file)
             get_translation_specific = get_translation(currentLanguageData)
             lang_key = getLangKey(lang)
-            lang_folder = foldername+'-'+lang_key
+            lang_folder = foldername + "-" + lang_key
             if PARSED_ARGS.verbose:
                 folder_files.set_description(
-                    "Translating {0}::{1}::{2}".format(foldername, filename, lang_key))
+                    "Translating {0}::{1}::{2}".format(foldername, filename, lang_key)
+                )
             mkdir(lang_folder)
-            jsonFileContents = fileParser(filename, benedict(
-                copy.deepcopy(file_data)), get_translation_specific)
-            saveFile(filename, BUILD_FOLDER+'/'+lang_folder, jsonFileContents)
+            jsonFileContents = fileParser(
+                filename, benedict(copy.deepcopy(file_data)), get_translation_specific
+            )
+            saveFile(filename, BUILD_FOLDER + "/" + lang_folder, jsonFileContents)
 
 
 def mount_assets(folder, imageName, imageExtension):
@@ -123,39 +126,41 @@ def mount_assets(folder, imageName, imageExtension):
 
 
 def mount_collection_array(folderName):
-    folder_files = get_folder_files(BUILD_FOLDER+"/"+folderName)
+    folder_files = get_folder_files(BUILD_FOLDER + "/" + folderName)
     collection = []
 
     for file in folder_files:
-        with open(file, 'r') as _file:
+        with open(file, "r") as _file:
             data = json.load(_file)
         collection.append(data)
 
     saveFile(folderName, COLLECTIONS_FOLDER, collection)
-    mPrint('Collection {0} saved'.format(folderName))
+    mPrint("Collection {0} saved".format(folderName))
 
 
 def update_mongo(collection, filePath):
     printline()
     mPrint(
-        "** Updating MONGODB => collection \"{0}\" with file {1} **\n".format(collection, filePath))
+        '** Updating MONGODB => collection "{0}" with file {1} **\n'.format(
+            collection, filePath
+        )
+    )
 
     if PARSED_ARGS.self or PARSED_ARGS.atlas:
         if PARSED_ARGS.self:
-            subprocess.call(MONGOIMPORT_SELF_CMD.format(
-                collection, filePath), shell=True)
+            subprocess.call(
+                MONGOIMPORT_SELF_CMD.format(collection, filePath), shell=True
+            )
 
         if PARSED_ARGS.atlas:
-            subprocess.call(MONGOIMPORT_ATLAS_CMD.format(
-                collection, filePath), shell=True)
+            subprocess.call(
+                MONGOIMPORT_ATLAS_CMD.format(collection, filePath), shell=True
+            )
     else:
-        subprocess.call(MONGOIMPORT_SELF_CMD.format(
-            collection, filePath), shell=True)
-        subprocess.call(MONGOIMPORT_ATLAS_CMD.format(
-            collection, filePath), shell=True)
+        subprocess.call(MONGOIMPORT_SELF_CMD.format(collection, filePath), shell=True)
+        subprocess.call(MONGOIMPORT_ATLAS_CMD.format(collection, filePath), shell=True)
 
-    mPrint(
-        "\n** MONGODB => collection \"{0}\" updated **\n\n".format(collection))
+    mPrint('\n** MONGODB => collection "{0}" updated **\n\n'.format(collection))
 
 
 # def convertChineseTraditionalToSimplified():
