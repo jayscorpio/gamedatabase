@@ -1,6 +1,7 @@
 {
     "_id": "lidica",
     "id": "c1046",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1046",
     "moonlight": false,

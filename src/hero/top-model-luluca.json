@@ -1,6 +1,7 @@
 {
     "_id": "top-model-luluca",
     "id": "c2082",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c2082",
     "moonlight": true,

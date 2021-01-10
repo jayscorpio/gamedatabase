@@ -1,6 +1,7 @@
 {
     "_id": "pyllis",
     "id": "c3005",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3005",
     "moonlight": true,

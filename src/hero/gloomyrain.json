@@ -1,6 +1,7 @@
 {
     "_id": "gloomyrain",
     "id": "c3074",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3074",
     "moonlight": true,

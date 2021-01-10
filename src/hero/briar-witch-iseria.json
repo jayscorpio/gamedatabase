@@ -1,6 +1,7 @@
 {
     "_id": "briar-witch-iseria",
     "id": "c2024",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c2024",
     "moonlight": true,

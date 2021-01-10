@@ -1,6 +1,7 @@
 {
     "_id": "haste",
     "id": "c1039",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1039",
     "moonlight": false,

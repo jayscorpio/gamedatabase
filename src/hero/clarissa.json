@@ -1,6 +1,7 @@
 {
     "_id": "clarissa",
     "id": "c1028",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1028",
     "moonlight": false,

@@ -1,6 +1,7 @@
 {
     "_id": "nemunas",
     "id": "c3061",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3061",
     "moonlight": false,

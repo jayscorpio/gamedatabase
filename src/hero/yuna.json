@@ -1,6 +1,7 @@
 {
     "_id": "yuna",
     "id": "c1030",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1030",
     "moonlight": false,

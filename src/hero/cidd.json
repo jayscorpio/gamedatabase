@@ -1,6 +1,7 @@
 {
     "_id": "cidd",
     "id": "c1014",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1014",
     "moonlight": false,

@@ -1,6 +1,7 @@
 {
     "_id": "jecht",
     "id": "c3053",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3053",
     "moonlight": false,

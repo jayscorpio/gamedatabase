@@ -1,6 +1,7 @@
 {
     "_id": "vildred",
     "id": "c1007",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1007",
     "moonlight": false,

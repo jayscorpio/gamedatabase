@@ -1,6 +1,7 @@
 {
     "_id": "alencia",
     "id": "c1100",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1100",
     "moonlight": false,

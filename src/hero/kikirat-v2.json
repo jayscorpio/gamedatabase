@@ -1,6 +1,7 @@
 {
     "_id": "kikirat-v2",
     "id": "c3084",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3084",
     "moonlight": true,

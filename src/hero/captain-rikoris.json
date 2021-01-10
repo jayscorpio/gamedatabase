@@ -1,6 +1,7 @@
 {
     "_id": "captain-rikoris",
     "id": "c4034",
+    "base_id": "c3034",
     "specialty_id": null,
     "name": "chrn_c4034",
     "moonlight": true,

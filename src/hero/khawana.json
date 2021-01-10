@@ -1,6 +1,7 @@
 {
     "_id": "khawana",
     "id": "c1086",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1086",
     "moonlight": false,

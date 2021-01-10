@@ -1,6 +1,7 @@
 {
     "_id": "righteous-thief-roozid",
     "id": "c4013",
+    "base_id": "c3013",
     "specialty_id": null,
     "name": "chrn_c4013",
     "moonlight": false,

@@ -1,6 +1,7 @@
 {
     "_id": "eaton",
     "id": "c3094",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3094",
     "moonlight": true,

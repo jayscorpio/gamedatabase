@@ -1,6 +1,7 @@
 {
     "_id": "otillie",
     "id": "c3045",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3045",
     "moonlight": true,

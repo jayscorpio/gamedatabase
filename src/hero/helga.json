@@ -1,6 +1,7 @@
 {
     "_id": "helga",
     "id": "c3023",
+    "base_id": null,
     "specialty_id": "c4023",
     "name": "chrn_c3023",
     "moonlight": false,

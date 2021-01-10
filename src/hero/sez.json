@@ -1,6 +1,7 @@
 {
     "_id": "sez",
     "id": "c1038",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1038",
     "moonlight": false,

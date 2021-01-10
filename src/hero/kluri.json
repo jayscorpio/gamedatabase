@@ -1,6 +1,7 @@
 {
     "_id": "kluri",
     "id": "c3003",
+    "base_id": null,
     "specialty_id": "c4003",
     "name": "chrn_c3003",
     "moonlight": false,

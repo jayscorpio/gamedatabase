@@ -1,6 +1,7 @@
 {
     "_id": "allrounder-wanda",
     "id": "c4065",
+    "base_id": "c3065",
     "specialty_id": null,
     "name": "chrn_c4065",
     "moonlight": true,

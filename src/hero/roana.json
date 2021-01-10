@@ -1,6 +1,7 @@
 {
     "_id": "roana",
     "id": "c1102",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1102",
     "moonlight": false,

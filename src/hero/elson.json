@@ -1,6 +1,7 @@
 {
     "_id": "elson",
     "id": "c3054",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c3054",
     "moonlight": true,

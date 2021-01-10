@@ -1,6 +1,7 @@
 {
     "_id": "corvus",
     "id": "c1012",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1012",
     "moonlight": false,

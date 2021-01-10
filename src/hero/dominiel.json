@@ -1,6 +1,7 @@
 {
     "_id": "dominiel",
     "id": "c1037",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1037",
     "moonlight": false,

@@ -1,6 +1,7 @@
 {
     "_id": "armin",
     "id": "c1008",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1008",
     "moonlight": false,

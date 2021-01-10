@@ -1,6 +1,7 @@
 {
     "_id": "carmainerose",
     "id": "c3071",
+    "base_id": null,
     "specialty_id": "c4071",
     "name": "chrn_c3071",
     "moonlight": false,

@@ -1,6 +1,7 @@
 {
     "_id": "church-of-ilryos-axe",
     "id": "c3025",
+    "base_id": null,
     "specialty_id": "c4025",
     "name": "chrn_c3025",
     "moonlight": true,

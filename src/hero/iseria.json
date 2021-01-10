@@ -1,6 +1,7 @@
 {
     "_id": "iseria",
     "id": "c1024",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1024",
     "moonlight": false,

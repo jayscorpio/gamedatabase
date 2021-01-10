@@ -1,6 +1,7 @@
 {
     "_id": "krau",
     "id": "c1070",
+    "base_id": null,
     "specialty_id": null,
     "name": "chrn_c1070",
     "moonlight": false,
