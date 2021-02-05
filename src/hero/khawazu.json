@@ -331,7 +331,7 @@
             "att_rate": 1.0,
             "buff": [],
             "debuff": [
-                31
+                18
             ],
             "common": [],
             "soul_description": "sk_c1085_1s_de",
@@ -496,7 +496,7 @@
             "cooldown": 4,
             "soul_gain": 2,
             "pow": 0.9,
-            "att_rate": 1.7,
+            "att_rate": 1.8,
             "buff": [],
             "debuff": [
                 18,

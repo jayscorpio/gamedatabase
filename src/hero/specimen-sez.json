@@ -406,7 +406,7 @@
             "cooldown": 3,
             "soul_gain": 2,
             "pow": 1,
-            "att_rate": 0.8,
+            "att_rate": 0.9,
             "buff": [],
             "debuff": [
                 20
@@ -415,7 +415,7 @@
             "soul_description": "sk_c2038_2s_de",
             "soul_requirement": 10,
             "soul_pow": 1,
-            "soul_att_rate": 1.05,
+            "soul_att_rate": 1.15,
             "enhanced_description": "sk_c2038_2u_de",
             "enhancements": [
                 {

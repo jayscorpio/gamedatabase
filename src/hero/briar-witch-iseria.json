@@ -411,7 +411,9 @@
             "soul_gain": 0,
             "pow": 1,
             "att_rate": 0,
-            "buff": [],
+            "buff": [
+                14
+            ],
             "debuff": [],
             "common": [],
             "enhancements": [
@@ -500,7 +502,7 @@
             "can_enhance": true,
             "description": "sk_c2024_3_de",
             "values": [
-                0.6
+                0.75
             ],
             "passive": false,
             "cooldown": 5,

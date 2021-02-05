@@ -496,6 +496,7 @@
             "att_rate": 0.85,
             "buff": [],
             "debuff": [
+                61,
                 20
             ],
             "common": [],
