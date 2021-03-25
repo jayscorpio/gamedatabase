@@ -1,0 +1,8 @@
+{
+    "_id": "lfn002dmgdn",
+    "id": "lfn002_dmgdn",
+    "icon": "stic_def_up_aura",
+    "type": "buff",
+    "name": "dmgdn_skeffnm",
+    "effect": "lfn002_dmgdn_de"
+}

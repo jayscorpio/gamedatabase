@@ -22,7 +22,15 @@
         {
             "name": null,
             "description": null,
-            "relations": []
+            "relations": [
+                {
+                    "id": "c2095",
+                    "slot": 1,
+                    "description": "chre_c2082_1_rt",
+                    "relation": "re_trust_tx",
+                    "upgrade": {}
+                }
+            ]
         }
     ],
     "self_devotion": {

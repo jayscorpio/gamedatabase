@@ -1,0 +1,40 @@
+{
+    "_id": "exc108001",
+    "id": "exc108001",
+    "name": "exc108001_name",
+    "description": "exc108001_desc",
+    "unit": "c1080",
+    "role": "ranger",
+    "rarity": 5,
+    "icon": "icon_eq_exclusive_c1080",
+    "stat": {
+        "type": "cri",
+        "value": 0.06
+    },
+    "skills": [
+        {
+            "skill": 2,
+            "description": "ek_c108001_01_de",
+            "skill_description": "ek_c108001_01sk_de",
+            "values": [
+                1
+            ]
+        },
+        {
+            "skill": 2,
+            "description": "ek_c108001_02_de",
+            "skill_description": "ek_c108001_02sk_de",
+            "values": [
+                1
+            ]
+        },
+        {
+            "skill": 3,
+            "description": "ek_c108001_03_de",
+            "skill_description": "ek_c108001_03sk_de",
+            "values": [
+                46
+            ]
+        }
+    ]
+}
